@@ -37,4 +37,5 @@ fi
 bash --login &
 slstatus &
 feh --bg-max $WALLPAPER
+# feh --bg-scale $WALLPAPER
 exec dwm
