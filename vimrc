@@ -67,6 +67,8 @@ Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'itchyny/lightline.vim'
 " move lines and visual blocks like in VSCode
 Plug 'matze/vim-move'
+" remove surroundings, eg. parentheses, brackets
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
