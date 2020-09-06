@@ -15,6 +15,7 @@ alias egrep='egrep --color=auto'
 alias yay='yay --color=auto'
 alias ls='ls -hvN --color=auto --group-directories-first'
 alias grep="grep --color=auto" ## Highlight desired matches
+alias igrep="grep -i"
 
 alias ll='ls --color=always -lAFbhv | less -XER' ## exact ls with pager
 
