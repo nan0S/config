@@ -5,9 +5,6 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# wallpaper location for feh program
-# WALLPAPER=~/Desktop/Miscellaneous/wallpapper.jpg
-
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
@@ -37,6 +34,5 @@ fi
 
 bash --login &
 slstatus &
-# feh --bg-max $WALLPAPER
-# feh --bg-scale $WALLPAPER
+hsetroot -solid '#242424'
 exec dwm
