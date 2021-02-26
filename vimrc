@@ -3,7 +3,6 @@ set relativenumber
 " line numbering
 set number
 
-
 " don't look back
 set nocompatible
 " enables syntax highlighting
@@ -62,7 +61,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'preservim/nerdcommenter'
 " autocompletion
 " Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
-Plug 'ycm-core/YouCompleteMe'
 " lightline
 Plug 'itchyny/lightline.vim'
 " move lines and visual blocks like in VSCode
@@ -127,7 +125,6 @@ nnoremap <C-l> :tabnext<CR>
 nnoremap <silent> <leader>d :<c-u>call search('<++>')<cr> ca<
 
 " set fullscreen mode when split
-set wmh=0 " sets minimum window height to 0 (more windows fit)
 nnoremap <silent> <leader>f :wincmd _ <Bar> :wincmd <Bar><CR>
 
 " copy to clipboard mappings
@@ -360,6 +357,7 @@ set signcolumn=yes
 " " Using CocList
 " " Show all diagnostics
 " nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
+" " Manage extensions
 " " Manage extensions
 " nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
 " " Show commands

@@ -16,7 +16,7 @@ export WALLPAPER=~/desktop/misc/photos/wallpaper.png
 
 # custom variables
 export HISTSIZE=2000
-export STUD=~/desktop/programs/studia
+export STUD=~/desktop/programs/studies
 
 setxkbmap pl # polskie znaki
 setxkbmap -option caps:escape # map caps lock to espace
