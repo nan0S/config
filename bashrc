@@ -10,8 +10,8 @@ shopt -s autocd
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# autocomplete after sudo, man
-complete -cf sudo man 
+# turn on autocomplete in bash
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
 
 # source Git special functions
 [ -e /usr/share/git/completion/git-prompt.sh ] && . /usr/share/git/completion/git-prompt.sh
