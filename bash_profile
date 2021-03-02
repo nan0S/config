@@ -12,7 +12,7 @@ export LATEX_TEMPLATE=$TEMPLATE_DIR/template.tex # path to the LaTeX template fi
 export EDITOR=nvim # default editor to use in scripts
 export CXXFLAGS='-std=c++17 -Wall -Wextra -ggdb -D LOCAL' # additional flags for make and C++ files
 export CFLAGS='-Wall -Wextra -ggdb' # additional flags for make and C files
-export WALLPAPER=~/desktop/misc/photos/wallpaper.png
+export WALLPAPER=~/desktop/misc/photos/wallpaper.jpg
 
 # custom variables
 export HISTSIZE=2000
@@ -21,8 +21,8 @@ export STUD=~/desktop/programs/studies
 setxkbmap pl # polskie znaki
 setxkbmap -option caps:escape # map caps lock to espace
 touchpad-toggle # automatically turn off touchpad at start
-# type pageupdown-disable && pageupdown-disable # disable PageUp, PageDown keys because they are annoying
-feh --bg-scale $WALLPAPER # set wallpaper
+type pageupdown-disable && pageupdown-disable # disable PageUp, PageDown keys because they are annoying
+feh --bg-max $WALLPAPER # set wallpaper
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 

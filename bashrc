@@ -66,6 +66,11 @@ alias ae='cd $STUD/ae'
 alias c++='cd $STUD/c++stl/tests'
 alias cpptricks='cd $STUD/cpptricks'
 
+alias dl='cd $STUD/dl'
+alias poo='cd $STUD/poo'
+alias bazy='cd $STUD/bazy'
+alias jfizo='cd $STUD/jfizo'
+
 alias tutorials='cd ~/desktop/programs/tutorials'
 alias train='cd ~/desktop/programs/contests/misc'
 alias job='cd ~/desktop/misc/job'
