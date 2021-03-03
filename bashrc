@@ -70,6 +70,7 @@ alias dl='cd $STUD/dl'
 alias poo='cd $STUD/poo'
 alias bazy='cd $STUD/bazy'
 alias jfizo='cd $STUD/jfizo'
+alias poo='cd $STUD/poo'
 
 alias tutorials='cd ~/desktop/programs/tutorials'
 alias train='cd ~/desktop/programs/contests/misc'
