@@ -39,6 +39,7 @@ alias nvim="nvim -c 'set scroll=10'"
 alias jupyter="run 'jupyter notebook --browser=chromium'"
 
 # useful aliases for custom folders
+alias misc='cd ~/desktop/misc'
 alias suck="cd ~/desktop/misc/suckless"
 alias codeforces='cd ~/desktop/programs/codeforces'
 alias atcoder='cd ~/desktop/programs/atcoder'
