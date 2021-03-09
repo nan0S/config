@@ -72,6 +72,8 @@ alias bazy='cd $STUD/bazy'
 alias jfizo='cd $STUD/jfizo'
 alias poo='cd $STUD/poo'
 
+alias bachelor='cd $STUD/bachelor'
+
 alias tutorials='cd ~/desktop/programs/tutorials'
 alias train='cd ~/desktop/programs/contests/misc'
 alias job='cd ~/desktop/misc/job'
