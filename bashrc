@@ -75,6 +75,7 @@ alias poo='cd $STUD/poo'
 alias bd='cd $STUD/bd'
 
 alias bachelor='cd $STUD/bachelor'
+alias hyper='cd $STUD/ai4g/project/ai4g-project/hypersonic'
 
 alias tutorials='cd ~/desktop/programs/tutorials'
 alias train='cd ~/desktop/programs/contests/misc'
