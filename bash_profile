@@ -18,6 +18,7 @@ export WALLPAPER=~/desktop/misc/photos/wallpaper.jpg
 export HISTSIZE=2000
 export STUD=~/desktop/programs/studies
 
+complete -cf run # complete after custom script 'run'
 setxkbmap pl # polskie znaki
 setxkbmap -option caps:escape # map caps lock to espace
 touchpad-toggle # automatically turn off touchpad at start

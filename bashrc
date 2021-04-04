@@ -72,6 +72,7 @@ alias poo='cd $STUD/poo'
 alias bazy='cd $STUD/bazy'
 alias jfizo='cd $STUD/jfizo'
 alias poo='cd $STUD/poo'
+alias bd='cd $STUD/bd'
 
 alias bachelor='cd $STUD/bachelor'
 
