@@ -87,6 +87,8 @@ alias .....='cd ../../../..'
 
 # xdg-open is uncomfortable to type
 alias open='xdg-open'
+alias current='cd ~/desktop/programs/contests/misc/2020-2021_ACM-ICPC_Brazil_Subregional_Programming_Contest'
+alias cppsrc='cd /usr/include/c++/10.2.0'
 
 # PS1='[\u@\h \W]\$ '
 # PS1="\e[31m[\e[33m\u\e[32m@\e[34m\h\e[35m \W\e[31m]\e[m\$ "
