@@ -44,6 +44,7 @@ alias suck="cd ~/desktop/misc/suckless"
 alias codeforces='cd ~/desktop/programs/codeforces'
 alias atcoder='cd ~/desktop/programs/atcoder'
 alias stud='cd $STUD'
+alias scripts='cd ~/.scripts'
 
 alias aisd='cd $STUD/aisd'
 alias mp='cd $STUD/mp'
