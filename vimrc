@@ -44,6 +44,8 @@ set shiftwidth=4
 set nowrap
 " number of lines to move when using Ctrl-D, Ctrl-U (0 means half page)
 set scroll=10 " (I don't know why it doesn't work - variable is not set so I added alias to .bashrc)
+" bring back the block cursor to nvim
+set guicursor=i:block
 
 call plug#begin('~/.vim/plugged')
 
