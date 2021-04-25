@@ -13,6 +13,7 @@ export EDITOR=nvim # default editor to use in scripts
 export CXXFLAGS='-std=c++17 -Wall -Wextra -ggdb -D LOCAL' # additional flags for make and C++ files
 export CFLAGS='-Wall -Wextra -ggdb' # additional flags for make and C files
 export WALLPAPER=~/desktop/misc/photos/wallpaper.jpg
+export DOTNET_CLI_TELEMETRY_OPTOUT=1 # optout from dotnet data collect
 
 # custom variables
 export HISTSIZE=2000
