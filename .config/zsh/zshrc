@@ -57,13 +57,13 @@ lfcd () {
 }
 
 bindkey -s '^o' 'lfcd\n'
-# bindkey -s '^g' 'bc -lq\n'
+bindkey -s '^G' 'bc -lq\n'
 bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
 bindkey '^[[P' delete-char
 
 # Edit line in vim with ctrl-i:
 autoload edit-command-line; zle -N edit-command-line
-# bindkey '^i' edit-command-line
+bindkey '^V' edit-command-line
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
