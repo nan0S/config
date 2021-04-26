@@ -1,0 +1,2894 @@
+{
+	"folder_history":
+	[
+		"/home/hubert/desktop/programs/studies/bachelor",
+		"/home/hubert/tests/flags",
+		"/home/hubert/desktop/programs/studies/bachelor/static_vector",
+		"/home/hubert/desktop/misc/suckless/dwm",
+		"/home/hubert/desktop/programs/studies/poo/lista/Lista 6",
+		"/home/hubert/desktop/programs/studies/poo/lista/Lista 6/Zadanie 1",
+		"/home/hubert/desktop/programs/studies/bachelor/static_rvector",
+		"/home/hubert/desktop/programs/studies/cpptricks/rvector/src",
+		"/home/hubert/tests",
+		"/home/hubert/desktop/programs/studies/cpptricks/rvector",
+		"/home/hubert/desktop/programs/studies/bachelor/tests/static_rvector",
+		"/home/hubert/desktop/programs/studies/bachelor/tests",
+		"/home/hubert",
+		"/home/hubert/desktop/programs/contests/misc/The_14th_Chinese_Northeast_Collegiate_Programming_Contest/b",
+		"/home/hubert/desktop/programs/studia/ml/project/cf-predictor/data-fetchers",
+		"/home/hubert/desktop/programs/studia/pgk/lista/l4/src",
+		"/home/hubert/games/torcs/pyScrcClient/src",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l6/hubert_obrzut/src",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src",
+		"/home/hubert/desktop/programs/studia/so/pracownia/mmalloc",
+		"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src",
+		"/home/hubert/desktop/programs/studia/so/lista/l10/so20_lista_10",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src",
+		"/home/hubert/desktop/programs/studia/so/lista/l8/so20_lista_8",
+		"/home/hubert/desktop/programs/contests/misc/eliminacje#2",
+		"/home/hubert/desktop/programs/studia/so/pracownia/so-shell",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src",
+		"/home/hubert/desktop/programs/studia/ai4g/lista/l2/tests/sfml",
+		"/home/hubert/repos/sfml-projects/forestfire",
+		"/home/hubert/desktop/programs/contests/misc/2019-2020 ICPC Asia Taipei-Hsinchu Regional Contest"
+	],
+	"last_version": 3211,
+	"last_window_id": 130,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1024.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"shf",
+						"shiftl"
+					],
+					[
+						"TEST",
+						"TEST_DIR"
+					],
+					[
+						"CXX",
+						"CXXFLAGS"
+					],
+					[
+						"malloc",
+						"malloc_allocator\tmalloc_allocator<class T>"
+					],
+					[
+						"iterator",
+						"iterator_traits\titerator_traits<typename _Iterator>"
+					],
+					[
+						"unitilized_",
+						"uninitialized_fill_n\t_ForwardIterator uninitialized_fill_n(_ForwardIterator __first, _Size __n, const _Tp &__x)"
+					],
+					[
+						"assign",
+						"assign\tvoid assign(std::initializer_list<value_type> il)"
+					],
+					[
+						"uint_fast",
+						"uint_fast32_t\tuint_fast32_t"
+					],
+					[
+						"GetReq",
+						"GetRequestBody(…)\tfunction ⟠"
+					],
+					[
+						"high",
+						"high_resolution_clock\thigh_resolution_clock"
+					],
+					[
+						"GetReques",
+						"GetRequestBody(…)\tfunction ⟠"
+					],
+					[
+						"acti",
+						"activeOnly"
+					],
+					[
+						"get",
+						"getActions\tint getActions() const"
+					],
+					[
+						"initial",
+						"initialState\tconst State * initialState"
+					],
+					[
+						"Stra",
+						"StrategyT"
+					],
+					[
+						"time",
+						"timeLimit"
+					],
+					[
+						"emp",
+						"empty\tbool empty() const"
+					],
+					[
+						"unor",
+						"unordered_map\tstandard header (since c++11)"
+					],
+					[
+						"curre",
+						"currentBestAction\tAction currentBestAction"
+					],
+					[
+						"best",
+						"bestResult\tResult bestResult"
+					],
+					[
+						"bestS",
+						"bestSequence\tstd::vector<Action> bestSequence"
+					],
+					[
+						"info",
+						"infoSize\tint infoSize"
+					],
+					[
+						"next",
+						"totalNextCount"
+					],
+					[
+						"is",
+						"isHorizontallyCorrect"
+					],
+					[
+						"empty",
+						"emptyColumnsMask"
+					],
+					[
+						"beam",
+						"beamSize\tint beamSize"
+					],
+					[
+						"neigh",
+						"neighbor\tState neighbor"
+					],
+					[
+						"first",
+						"firstAction"
+					],
+					[
+						"get_bu",
+						"get_bucket_index"
+					],
+					[
+						"bt_get_",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"enlar",
+						"enlarge_bt\tword_t * enlarge_bt"
+					],
+					[
+						"bt_get",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"enla",
+						"enlarge_bt"
+					],
+					[
+						"realloc",
+						"realloc_in_place\tvoid * realloc_in_place()"
+					],
+					[
+						"bt_get_pre",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"bt_g",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"NU",
+						"NUMBUCKETS\tNUMBUCKETS"
+					],
+					[
+						"buc",
+						"bucket_index\tint bucket_index"
+					],
+					[
+						"free",
+						"free_block\tword_t * free_block"
+					],
+					[
+						"chekc",
+						"check_buckets_empty"
+					],
+					[
+						"get_buc",
+						"get_bucket_index\tint get_bucket_index(size_t size)"
+					],
+					[
+						"check_",
+						"check_free_blocks_in_buckets"
+					],
+					[
+						"bucket",
+						"bucket_start\tword_t * bucket_start"
+					],
+					[
+						"buck",
+						"bucket_start\tword_t * bucket_start"
+					],
+					[
+						"get_",
+						"get_index_from_bucket\tint get_index_from_bucket(word_t *bucket)"
+					],
+					[
+						"mm_he",
+						"mem_heap_hi\tvoid * mem_heap_hi()"
+					],
+					[
+						"bt_pre",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"bt_next",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"bt_rev",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"alloc",
+						"alloc_block\tword_t * alloc_block"
+					],
+					[
+						"bt_set",
+						"bt_set_prevfree\tvoid bt_set_prevfree(word_t *bt)"
+					],
+					[
+						"get_buck",
+						"get_bucket_index\tint get_bucket_index(size_t size)"
+					],
+					[
+						"bt_set_prev",
+						"bt_set_prevptr\tint bt_set_prevptr(word_t *bt, word_t *next)"
+					],
+					[
+						"get_next",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"bucke",
+						"bucket_ptr\tword_t * bucket_ptr"
+					],
+					[
+						"mem_heap",
+						"mem_heap_lo\tvoid * mem_heap_lo()"
+					],
+					[
+						"BEAM",
+						"BEAM_DEPTH\tconst int BEAM_DEPTH"
+					],
+					[
+						"oper",
+						"operator==\tbool operator==(const Action &action) const"
+					],
+					[
+						"prop",
+						"propagateHorizontally\tvoid propagateHorizontally()"
+					],
+					[
+						"pro",
+						"propagateVertically"
+					],
+					[
+						"en",
+						"enqueued\tbool [15][15] enqueued"
+					],
+					[
+						"ost",
+						"ostream\tostream"
+					],
+					[
+						"cons",
+						"considerCount\tint considerCount"
+					],
+					[
+						"nei",
+						"neighborCount\tint neighborCount"
+					],
+					[
+						"inDi",
+						"inDirectionCol"
+					],
+					[
+						"dista",
+						"distanceToGoal\tfloat [20][20] distanceToGoal"
+					],
+					[
+						"Map",
+						"MAPSIZE\tMAPSIZE"
+					],
+					[
+						"toGoal",
+						"toGoalDiffCol\tint toGoalDiffCol"
+					],
+					[
+						"togoal",
+						"toGoalDiffCol\tint toGoalDiffCol"
+					],
+					[
+						"togoa",
+						"toGoalDiffRow\tint toGoalDiffRow"
+					],
+					[
+						"inDire",
+						"inDirectionCol\tbool inDirectionCol"
+					],
+					[
+						"inDI",
+						"inDirectionCol\tbool inDirectionCol"
+					],
+					[
+						"SOUTH",
+						"SOUTHWEST"
+					],
+					[
+						"NOR",
+						"NORTHEAST\tJPSPlus::direction NORTHEAST"
+					],
+					[
+						"NORT",
+						"NORTH"
+					],
+					[
+						"prin",
+						"printed"
+					],
+					[
+						"rec",
+						"recipesLearnt"
+					],
+					[
+						"recipe",
+						"recipeDoneCount"
+					],
+					[
+						"dy",
+						"dynamic_pointer_cast\tshared_ptr<_Tp> dynamic_pointer_cast<typename _Tp>(const shared_ptr<_Up> &__r)"
+					],
+					[
+						"recu",
+						"recipeDoneCount\tint recipeDoneCount"
+					],
+					[
+						"reci",
+						"recipeCount\tint recipeCount"
+					],
+					[
+						"cast",
+						"castableSpellsFromRecipesMask\tint castableSpellsFromRecipesMask"
+					],
+					[
+						"cas",
+						"castableSpellsFromRecipesMask\tint castableSpellsFromRecipesMask"
+					],
+					[
+						"recip",
+						"recipeCount"
+					],
+					[
+						"spel",
+						"spellsFromRecipes\tstd::array<Spell, MAX_RECIPE_COUNT> spellsFromRecipes"
+					],
+					[
+						"neog",
+						"neighborCount\tint neighborCount"
+					],
+					[
+						"spells",
+						"spellsFromRecipes\tstd::array<Spell, Battle::MAX_RECIPE_COUNT> spellsFromRecipes"
+					],
+					[
+						"spell",
+						"spellFromRecipes\tstd::array<Spell, MAX_RECIPE_COUNT> spellFromRecipes"
+					],
+					[
+						"customS",
+						"customSpellCount\tint customSpellCount"
+					],
+					[
+						"order",
+						"orderCount\tint orderCount"
+					],
+					[
+						"neig",
+						"neighbor\tState & neighbor"
+					],
+					[
+						"custom",
+						"customSpellCount\tint customSpellCount"
+					],
+					[
+						"cust",
+						"customSpells\tstd::array<Spell, MAX_SPELL_COUNT> customSpells"
+					],
+					[
+						"init",
+						"initialState\tState initialState"
+					],
+					[
+						"evalu",
+						"evaluation\teval_t evaluation"
+					],
+					[
+						"repea",
+						"repeatedDeltas\tstd::array<Delta, MAX_REPEATED_DELTA> repeatedDeltas"
+					],
+					[
+						"current",
+						"currentCount\tint currentCount"
+					],
+					[
+						"sepll",
+						"spellCount\tint spellCount"
+					],
+					[
+						"player",
+						"playerOrdersDone\tint playerOrdersDone"
+					],
+					[
+						"spe",
+						"spells\tstd::array<Spell, MAX_SPELL_COUNT> spells"
+					],
+					[
+						"repe",
+						"repeatedDeltas\tstd::array<Delta, 10> repeatedDeltas"
+					],
+					[
+						"rep",
+						"repeatedSpells\tstd::array<Spell, 10> repeatedSpells"
+					],
+					[
+						"I",
+						"isOrderDone\tbool isOrderDone(const int &i) const"
+					],
+					[
+						"playe",
+						"playerOrdersDone\tint playerOrdersDone"
+					],
+					[
+						"orde",
+						"ordersDone\tint ordersDone"
+					],
+					[
+						"or",
+						"ordersDone\tint ordersDone"
+					],
+					[
+						"max",
+						"maxTimes\tint maxTimes"
+					],
+					[
+						"em",
+						"empty\tbool empty() const"
+					],
+					[
+						"dist",
+						"distance\tint [14641] distance"
+					],
+					[
+						"empl",
+						"emplace_back\tvoid emplace_back(_Args &&__args...)"
+					],
+					[
+						"from",
+						"fromidx\tint [14641] fromidx"
+					],
+					[
+						"bestState",
+						"bestStates"
+					],
+					[
+						"bestSta",
+						"bestStates"
+					],
+					[
+						"actionId",
+						"actionIdxs"
+					],
+					[
+						"bestSt",
+						"bestStates"
+					],
+					[
+						"inita",
+						"initialFuel\tint initialFuel"
+					],
+					[
+						"ini",
+						"initialFuel"
+					],
+					[
+						"EXIT",
+						"EXIT_SUCCESS\tEXIT_SUCCESS"
+					],
+					[
+						"res",
+						"reserve\tvoid reserve(size_type __n)"
+					],
+					[
+						"LEFT",
+						"LEFT_COLLISION\tconst int LEFT_COLLISION"
+					],
+					[
+						"Crash",
+						"CrashedOutside"
+					],
+					[
+						"RIGHT",
+						"RIGHT_COLLISION\tconst int RIGHT_COLLISION"
+					],
+					[
+						"vspee",
+						"vSpeedEval\tfloat vSpeedEval"
+					],
+					[
+						"vs",
+						"vSpeedAboveLimit\tfloat vSpeedAboveLimit"
+					],
+					[
+						"vsp",
+						"vSpeedEval\tfloat vSpeedEval"
+					],
+					[
+						"vspeed",
+						"vSpeedAboveLimit\tfloat vSpeedAboveLimit"
+					],
+					[
+						"VSPEE",
+						"VSPEED_LIMIT\tconst int VSPEED_LIMIT"
+					],
+					[
+						"collid",
+						"collisionIdx\tint collisionIdx"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ecc",
+						"ECC: Settings"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
+					],
+					[
+						"ecc set",
+						"ECC: Settings"
+					],
+					[
+						"e",
+						"ECC: Settings"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"theme",
+						"gruvbox: Select Theme"
+					],
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"kite",
+						"Kite: Package Settings"
+					],
+					[
+						"kite ",
+						"Kite: Package Settings"
+					],
+					[
+						"toggle",
+						"View: Toggle Side Bar"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"refresh",
+						"Project: Refresh Folders"
+					],
+					[
+						"refres",
+						"Project: Refresh Folders"
+					],
+					[
+						"youco",
+						"C++YouCompleteMe: Highlight problems"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Set Syntax: PythonImproved"
+					],
+					[
+						"men",
+						"View: Toggle Menu"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"toggl",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"prefere",
+						"Preferences: Settings"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"togg",
+						"View: Toggle Menu"
+					],
+					[
+						"material",
+						"Material Theme: Activate theme"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 342.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hubert/desktop/programs/studies/bachelor/compile_commands.json",
+				"/home/hubert/desktop/programs/studies/bachelor/tmp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/allocator.hpp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/static_vector.hpp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/Makefile",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g2.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g1.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/check.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c5.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/e/e.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c3.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c2.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c1.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c4.in",
+				"/tmp/kite_tutorial.py",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NRPA.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/State.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/SameGame.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Action.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/BeamSearch.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/MCTS.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/MCTS.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/State.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NMCS.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NMCS.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Strategy.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Strategy.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/BeamSearch.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/runtest",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/SameGame.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/.gitignore",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/result.bad",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/traces/binary2.rep",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/mdriver.c",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/testcase3.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/tests/testcase6.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Action.cpp",
+				"/home/hubert/desktop/programs/studia/c++stl/tests/colors/col.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest/g/g3.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest/c/c.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Action.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/tests/testcase1.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/printer.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/JPSPlus.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/JPSPlus.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/testcase2.txt",
+				"/home/hubert/desktop/programs/contests/moscow/fall-2020/day5/test.cpp",
+				"/home/hubert/desktop/programs/studia/so/lista/l8/so20_lista_8/test.h",
+				"/home/hubert/desktop/programs/contests/moscow/fall-2020/day1/l/l4.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i4.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i3.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/brut.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/c/c.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j3.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/State.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/State.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Options.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Options.hpp",
+				"/home/hubert/desktop/programs/contests/misc/ICPC Central Russia Regional Contest (CERC 18)/d/d.py",
+				"/home/hubert/desktop/programs/contests/misc/ICPC Central Russia Regional Contest (CERC 18)/c/c.in",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/CGSolver.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/i/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/c/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/i/i2.h>",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/simulator.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Drawer.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Drawer.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/easy_on_the_right.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Agent.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Agent.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/CGSolver.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Evolution.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Evolution.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Options.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Options.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Map.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Map.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/solution.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2019-2020 ICPC Asia Taipei-Hsinchu Regional Contest/h/h.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/simulator.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/Simulator.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/Simulator.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Action.cpp",
+				"/home/hubert/.config/sublime-text-3/Packages/User/C++YouCompleteMe.sublime-settings",
+				"/home/hubert/.config/sublime-text-3/Packages/C++YouCompleteMe/C++YouCompleteMe.sublime-settings",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/c.cpp",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/b.cpp",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/a.cpp",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/router.c",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/router.cpp",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/udp_client",
+				"/home/hubert/log1"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 161.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.CppYCM.2":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"stat",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"comp",
+						"compile_commands.json"
+					],
+					[
+						"stati",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"satt",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"tm",
+						"tmp"
+					],
+					[
+						"static",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"make",
+						"Makefile"
+					],
+					[
+						"main.c",
+						"main.cpp"
+					],
+					[
+						"allo",
+						"allocator.hpp"
+					],
+					[
+						"main",
+						"main.cpp"
+					],
+					[
+						"main.",
+						"main.cpp"
+					],
+					[
+						"null",
+						"NullObject.cs"
+					],
+					[
+						"mem",
+						"memory.hpp"
+					],
+					[
+						"makef",
+						"Makefile"
+					],
+					[
+						"rvec",
+						"rvector.h"
+					],
+					[
+						"s",
+						"static_rvector.hpp"
+					],
+					[
+						"ts",
+						"tsv_test.cpp"
+					],
+					[
+						"b.c",
+						"b.cpp"
+					],
+					[
+						"data",
+						"database.py"
+					],
+					[
+						"db",
+						"db.py"
+					],
+					[
+						"view",
+						"View.cpp"
+					],
+					[
+						"",
+						"driver.py"
+					],
+					[
+						"nrpa",
+						"NRPA.cpp"
+					],
+					[
+						"runtest",
+						"runtest"
+					],
+					[
+						"state",
+						"State.cpp"
+					],
+					[
+						"nmcs",
+						"NMCS.cpp"
+					],
+					[
+						"same",
+						"SameGame.hpp"
+					],
+					[
+						"com",
+						"Common.hpp"
+					],
+					[
+						"nr",
+						"NRPA.hpp"
+					],
+					[
+						"comm",
+						"Common.cpp"
+					],
+					[
+						"acti",
+						"Action.hpp"
+					],
+					[
+						"stra",
+						"Strategy.hpp"
+					],
+					[
+						"beam",
+						"BeamSearch.cpp"
+					],
+					[
+						"mcts",
+						"MCTS.cpp"
+					],
+					[
+						"nm",
+						"NMCS.hpp"
+					],
+					[
+						"merger",
+						"merger"
+					],
+					[
+						"nmc",
+						"NMCS.cpp"
+					],
+					[
+						"man",
+						"main.cpp"
+					],
+					[
+						"strate",
+						"Strategy.hpp"
+					],
+					[
+						"mcs",
+						"MCTS.hpp"
+					],
+					[
+						"state.c",
+						"State.cpp"
+					],
+					[
+						"Com",
+						"Common.hpp"
+					],
+					[
+						"sameg",
+						"SameGame.hpp"
+					],
+					[
+						"mer",
+						"merger"
+					],
+					[
+						"bea",
+						"BeamSearch.cpp"
+					],
+					[
+						"coom",
+						"Common.hpp"
+					],
+					[
+						"actio",
+						"Action.hpp"
+					],
+					[
+						"res",
+						"result.bad"
+					],
+					[
+						"binary2.re",
+						"traces/binary2.rep"
+					],
+					[
+						"resu",
+						"result.bad"
+					],
+					[
+						"mdri",
+						"mdriver.c"
+					],
+					[
+						"mm.c",
+						"mm.c"
+					],
+					[
+						"mm-",
+						"mm-implicit.c"
+					],
+					[
+						"mm",
+						"mm.c"
+					],
+					[
+						"mdriver",
+						"mdriver.c"
+					],
+					[
+						"memlib",
+						"memlib.c"
+					],
+					[
+						"common",
+						"Common.cpp"
+					],
+					[
+						"stae",
+						"State.hpp"
+					],
+					[
+						"state.",
+						"State.cpp"
+					],
+					[
+						"state.cpp",
+						"State.cpp"
+					],
+					[
+						"state.hpp",
+						"State.hpp"
+					],
+					[
+						"c",
+						"Common.hpp"
+					],
+					[
+						"act",
+						"Action.hpp"
+					],
+					[
+						"server",
+						"echoserver-poll.c"
+					],
+					[
+						"cpm",
+						"Common.hpp"
+					],
+					[
+						"ac",
+						"Action.cpp"
+					],
+					[
+						"prin",
+						"printer.cpp"
+					],
+					[
+						"test",
+						"tests/testcase1.txt"
+					],
+					[
+						"testcas",
+						"tests/testcase1.txt"
+					],
+					[
+						"gowno",
+						"gowno"
+					],
+					[
+						"jps",
+						"JPSPlus.cpp"
+					],
+					[
+						"merg",
+						"merger"
+					],
+					[
+						"JPS",
+						"JPSPlus.cpp"
+					],
+					[
+						"makefie",
+						"Makefile"
+					],
+					[
+						"test.h",
+						"test.h"
+					],
+					[
+						"obj",
+						"objpool.c"
+					],
+					[
+						"makefi",
+						"Makefile"
+					],
+					[
+						"delta",
+						"Delta.cpp"
+					],
+					[
+						"bat",
+						"Battle.hpp"
+					],
+					[
+						"comom",
+						"Common.cpp"
+					],
+					[
+						"action",
+						"Action.hpp"
+					],
+					[
+						"batt",
+						"Battle.hpp"
+					],
+					[
+						"battl",
+						"Battle.hpp"
+					],
+					[
+						"delta.c",
+						"Delta.cpp"
+					],
+					[
+						"battle.",
+						"Battle.cpp"
+					],
+					[
+						"shel",
+						"shell.c"
+					],
+					[
+						"battle",
+						"Battle.cpp"
+					],
+					[
+						"commo",
+						"Common.cpp"
+					],
+					[
+						"delta.",
+						"Delta.cpp"
+					],
+					[
+						"cgso",
+						"CGSolver.cpp"
+					],
+					[
+						"mak",
+						"Makefile"
+					],
+					[
+						"opt",
+						"Options.cpp"
+					],
+					[
+						"evo",
+						"Evolution.cpp"
+					],
+					[
+						"map.c",
+						"Map.cpp"
+					],
+					[
+						"options",
+						"Options.cpp"
+					],
+					[
+						"evol",
+						"Evolution.cpp"
+					],
+					[
+						"map.cp",
+						"Map.cpp"
+					],
+					[
+						"coo",
+						"Common.hpp"
+					],
+					[
+						"simul",
+						"simulator.cpp"
+					],
+					[
+						"eas",
+						"tests/easy_on_the_right.txt"
+					],
+					[
+						"merge",
+						"merger"
+					],
+					[
+						"cgsol",
+						"CGSolver.cpp"
+					],
+					[
+						"aget",
+						"Agent.cpp"
+					],
+					[
+						"ae",
+						"Agent.hpp"
+					],
+					[
+						"drawer",
+						"Drawer.cpp"
+					],
+					[
+						"optio",
+						"Options.cpp"
+					],
+					[
+						"opti",
+						"Options.hpp"
+					],
+					[
+						"simu",
+						"simulator.cpp"
+					],
+					[
+						"makefile",
+						"Makefile"
+					],
+					[
+						"map.hpp",
+						"Map.hpp"
+					],
+					[
+						"ev",
+						"Evolution.cpp"
+					],
+					[
+						"map.h",
+						"Map.hpp"
+					],
+					[
+						"mapc.",
+						"Map.cpp"
+					],
+					[
+						"op",
+						"Options.cpp"
+					],
+					[
+						"makfi",
+						"Makefile"
+					],
+					[
+						"agent.hp",
+						"Agent.hpp"
+					],
+					[
+						"agent.cp",
+						"Agent.cpp"
+					],
+					[
+						"map.hp",
+						"Map.hpp"
+					],
+					[
+						"sim",
+						"simulator.cpp"
+					],
+					[
+						"su",
+						"simulator.cpp"
+					],
+					[
+						"ag",
+						"Agent.cpp"
+					],
+					[
+						"agent",
+						"Agent.hpp"
+					],
+					[
+						"map.",
+						"Map.hpp"
+					],
+					[
+						"optn",
+						"Options.hpp"
+					],
+					[
+						"main.cp",
+						"main.cpp"
+					],
+					[
+						"drawer.cpp",
+						"Drawer.cpp"
+					],
+					[
+						"makf",
+						"Makefile"
+					],
+					[
+						"drawe",
+						"Drawer.hpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 354.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 574.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1035.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"shf",
+						"shiftl"
+					],
+					[
+						"TEST",
+						"TEST_DIR"
+					],
+					[
+						"CXX",
+						"CXXFLAGS"
+					],
+					[
+						"malloc",
+						"malloc_allocator\tmalloc_allocator<class T>"
+					],
+					[
+						"iterator",
+						"iterator_traits\titerator_traits<typename _Iterator>"
+					],
+					[
+						"unitilized_",
+						"uninitialized_fill_n\t_ForwardIterator uninitialized_fill_n(_ForwardIterator __first, _Size __n, const _Tp &__x)"
+					],
+					[
+						"assign",
+						"assign\tvoid assign(std::initializer_list<value_type> il)"
+					],
+					[
+						"uint_fast",
+						"uint_fast32_t\tuint_fast32_t"
+					],
+					[
+						"GetReq",
+						"GetRequestBody(…)\tfunction ⟠"
+					],
+					[
+						"high",
+						"high_resolution_clock\thigh_resolution_clock"
+					],
+					[
+						"GetReques",
+						"GetRequestBody(…)\tfunction ⟠"
+					],
+					[
+						"acti",
+						"activeOnly"
+					],
+					[
+						"get",
+						"getActions\tint getActions() const"
+					],
+					[
+						"initial",
+						"initialState\tconst State * initialState"
+					],
+					[
+						"Stra",
+						"StrategyT"
+					],
+					[
+						"time",
+						"timeLimit"
+					],
+					[
+						"emp",
+						"empty\tbool empty() const"
+					],
+					[
+						"unor",
+						"unordered_map\tstandard header (since c++11)"
+					],
+					[
+						"curre",
+						"currentBestAction\tAction currentBestAction"
+					],
+					[
+						"best",
+						"bestResult\tResult bestResult"
+					],
+					[
+						"bestS",
+						"bestSequence\tstd::vector<Action> bestSequence"
+					],
+					[
+						"info",
+						"infoSize\tint infoSize"
+					],
+					[
+						"next",
+						"totalNextCount"
+					],
+					[
+						"is",
+						"isHorizontallyCorrect"
+					],
+					[
+						"empty",
+						"emptyColumnsMask"
+					],
+					[
+						"beam",
+						"beamSize\tint beamSize"
+					],
+					[
+						"neigh",
+						"neighbor\tState neighbor"
+					],
+					[
+						"first",
+						"firstAction"
+					],
+					[
+						"get_bu",
+						"get_bucket_index"
+					],
+					[
+						"bt_get_",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"enlar",
+						"enlarge_bt\tword_t * enlarge_bt"
+					],
+					[
+						"bt_get",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"enla",
+						"enlarge_bt"
+					],
+					[
+						"realloc",
+						"realloc_in_place\tvoid * realloc_in_place()"
+					],
+					[
+						"bt_get_pre",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"bt_g",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"NU",
+						"NUMBUCKETS\tNUMBUCKETS"
+					],
+					[
+						"buc",
+						"bucket_index\tint bucket_index"
+					],
+					[
+						"free",
+						"free_block\tword_t * free_block"
+					],
+					[
+						"chekc",
+						"check_buckets_empty"
+					],
+					[
+						"get_buc",
+						"get_bucket_index\tint get_bucket_index(size_t size)"
+					],
+					[
+						"check_",
+						"check_free_blocks_in_buckets"
+					],
+					[
+						"bucket",
+						"bucket_start\tword_t * bucket_start"
+					],
+					[
+						"buck",
+						"bucket_start\tword_t * bucket_start"
+					],
+					[
+						"get_",
+						"get_index_from_bucket\tint get_index_from_bucket(word_t *bucket)"
+					],
+					[
+						"mm_he",
+						"mem_heap_hi\tvoid * mem_heap_hi()"
+					],
+					[
+						"bt_pre",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"bt_next",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"bt_rev",
+						"bt_get_prevfree\tbt_flags bt_get_prevfree(word_t *bt)"
+					],
+					[
+						"alloc",
+						"alloc_block\tword_t * alloc_block"
+					],
+					[
+						"bt_set",
+						"bt_set_prevfree\tvoid bt_set_prevfree(word_t *bt)"
+					],
+					[
+						"get_buck",
+						"get_bucket_index\tint get_bucket_index(size_t size)"
+					],
+					[
+						"bt_set_prev",
+						"bt_set_prevptr\tint bt_set_prevptr(word_t *bt, word_t *next)"
+					],
+					[
+						"get_next",
+						"bt_get_nextptr\tword_t * bt_get_nextptr(word_t *bt)"
+					],
+					[
+						"bucke",
+						"bucket_ptr\tword_t * bucket_ptr"
+					],
+					[
+						"mem_heap",
+						"mem_heap_lo\tvoid * mem_heap_lo()"
+					],
+					[
+						"BEAM",
+						"BEAM_DEPTH\tconst int BEAM_DEPTH"
+					],
+					[
+						"oper",
+						"operator==\tbool operator==(const Action &action) const"
+					],
+					[
+						"prop",
+						"propagateHorizontally\tvoid propagateHorizontally()"
+					],
+					[
+						"pro",
+						"propagateVertically"
+					],
+					[
+						"en",
+						"enqueued\tbool [15][15] enqueued"
+					],
+					[
+						"ost",
+						"ostream\tostream"
+					],
+					[
+						"cons",
+						"considerCount\tint considerCount"
+					],
+					[
+						"nei",
+						"neighborCount\tint neighborCount"
+					],
+					[
+						"inDi",
+						"inDirectionCol"
+					],
+					[
+						"dista",
+						"distanceToGoal\tfloat [20][20] distanceToGoal"
+					],
+					[
+						"Map",
+						"MAPSIZE\tMAPSIZE"
+					],
+					[
+						"toGoal",
+						"toGoalDiffCol\tint toGoalDiffCol"
+					],
+					[
+						"togoal",
+						"toGoalDiffCol\tint toGoalDiffCol"
+					],
+					[
+						"togoa",
+						"toGoalDiffRow\tint toGoalDiffRow"
+					],
+					[
+						"inDire",
+						"inDirectionCol\tbool inDirectionCol"
+					],
+					[
+						"inDI",
+						"inDirectionCol\tbool inDirectionCol"
+					],
+					[
+						"SOUTH",
+						"SOUTHWEST"
+					],
+					[
+						"NOR",
+						"NORTHEAST\tJPSPlus::direction NORTHEAST"
+					],
+					[
+						"NORT",
+						"NORTH"
+					],
+					[
+						"prin",
+						"printed"
+					],
+					[
+						"rec",
+						"recipesLearnt"
+					],
+					[
+						"recipe",
+						"recipeDoneCount"
+					],
+					[
+						"dy",
+						"dynamic_pointer_cast\tshared_ptr<_Tp> dynamic_pointer_cast<typename _Tp>(const shared_ptr<_Up> &__r)"
+					],
+					[
+						"recu",
+						"recipeDoneCount\tint recipeDoneCount"
+					],
+					[
+						"reci",
+						"recipeCount\tint recipeCount"
+					],
+					[
+						"cast",
+						"castableSpellsFromRecipesMask\tint castableSpellsFromRecipesMask"
+					],
+					[
+						"cas",
+						"castableSpellsFromRecipesMask\tint castableSpellsFromRecipesMask"
+					],
+					[
+						"recip",
+						"recipeCount"
+					],
+					[
+						"spel",
+						"spellsFromRecipes\tstd::array<Spell, MAX_RECIPE_COUNT> spellsFromRecipes"
+					],
+					[
+						"neog",
+						"neighborCount\tint neighborCount"
+					],
+					[
+						"spells",
+						"spellsFromRecipes\tstd::array<Spell, Battle::MAX_RECIPE_COUNT> spellsFromRecipes"
+					],
+					[
+						"spell",
+						"spellFromRecipes\tstd::array<Spell, MAX_RECIPE_COUNT> spellFromRecipes"
+					],
+					[
+						"customS",
+						"customSpellCount\tint customSpellCount"
+					],
+					[
+						"order",
+						"orderCount\tint orderCount"
+					],
+					[
+						"neig",
+						"neighbor\tState & neighbor"
+					],
+					[
+						"custom",
+						"customSpellCount\tint customSpellCount"
+					],
+					[
+						"cust",
+						"customSpells\tstd::array<Spell, MAX_SPELL_COUNT> customSpells"
+					],
+					[
+						"init",
+						"initialState\tState initialState"
+					],
+					[
+						"evalu",
+						"evaluation\teval_t evaluation"
+					],
+					[
+						"repea",
+						"repeatedDeltas\tstd::array<Delta, MAX_REPEATED_DELTA> repeatedDeltas"
+					],
+					[
+						"current",
+						"currentCount\tint currentCount"
+					],
+					[
+						"sepll",
+						"spellCount\tint spellCount"
+					],
+					[
+						"player",
+						"playerOrdersDone\tint playerOrdersDone"
+					],
+					[
+						"spe",
+						"spells\tstd::array<Spell, MAX_SPELL_COUNT> spells"
+					],
+					[
+						"repe",
+						"repeatedDeltas\tstd::array<Delta, 10> repeatedDeltas"
+					],
+					[
+						"rep",
+						"repeatedSpells\tstd::array<Spell, 10> repeatedSpells"
+					],
+					[
+						"I",
+						"isOrderDone\tbool isOrderDone(const int &i) const"
+					],
+					[
+						"playe",
+						"playerOrdersDone\tint playerOrdersDone"
+					],
+					[
+						"orde",
+						"ordersDone\tint ordersDone"
+					],
+					[
+						"or",
+						"ordersDone\tint ordersDone"
+					],
+					[
+						"max",
+						"maxTimes\tint maxTimes"
+					],
+					[
+						"em",
+						"empty\tbool empty() const"
+					],
+					[
+						"dist",
+						"distance\tint [14641] distance"
+					],
+					[
+						"empl",
+						"emplace_back\tvoid emplace_back(_Args &&__args...)"
+					],
+					[
+						"from",
+						"fromidx\tint [14641] fromidx"
+					],
+					[
+						"bestState",
+						"bestStates"
+					],
+					[
+						"bestSta",
+						"bestStates"
+					],
+					[
+						"actionId",
+						"actionIdxs"
+					],
+					[
+						"bestSt",
+						"bestStates"
+					],
+					[
+						"inita",
+						"initialFuel\tint initialFuel"
+					],
+					[
+						"ini",
+						"initialFuel"
+					],
+					[
+						"EXIT",
+						"EXIT_SUCCESS\tEXIT_SUCCESS"
+					],
+					[
+						"res",
+						"reserve\tvoid reserve(size_type __n)"
+					],
+					[
+						"LEFT",
+						"LEFT_COLLISION\tconst int LEFT_COLLISION"
+					],
+					[
+						"Crash",
+						"CrashedOutside"
+					],
+					[
+						"RIGHT",
+						"RIGHT_COLLISION\tconst int RIGHT_COLLISION"
+					],
+					[
+						"vspee",
+						"vSpeedEval\tfloat vSpeedEval"
+					],
+					[
+						"vs",
+						"vSpeedAboveLimit\tfloat vSpeedAboveLimit"
+					],
+					[
+						"vsp",
+						"vSpeedEval\tfloat vSpeedEval"
+					],
+					[
+						"vspeed",
+						"vSpeedAboveLimit\tfloat vSpeedAboveLimit"
+					],
+					[
+						"VSPEE",
+						"VSPEED_LIMIT\tconst int VSPEED_LIMIT"
+					],
+					[
+						"collid",
+						"collisionIdx\tint collisionIdx"
+					]
+				]
+			},
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"ecc",
+						"ECC: Settings"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
+					],
+					[
+						"ecc set",
+						"ECC: Settings"
+					],
+					[
+						"e",
+						"ECC: Settings"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"theme",
+						"gruvbox: Select Theme"
+					],
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"kite",
+						"Kite: Package Settings"
+					],
+					[
+						"kite ",
+						"Kite: Package Settings"
+					],
+					[
+						"toggle",
+						"View: Toggle Side Bar"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"refresh",
+						"Project: Refresh Folders"
+					],
+					[
+						"refres",
+						"Project: Refresh Folders"
+					],
+					[
+						"youco",
+						"C++YouCompleteMe: Highlight problems"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"python",
+						"Set Syntax: PythonImproved"
+					],
+					[
+						"men",
+						"View: Toggle Menu"
+					],
+					[
+						"setti",
+						"Preferences: Settings"
+					],
+					[
+						"toggl",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"prefere",
+						"Preferences: Settings"
+					],
+					[
+						"c++",
+						"Set Syntax: C++"
+					],
+					[
+						"togg",
+						"View: Toggle Menu"
+					],
+					[
+						"material",
+						"Material Theme: Activate theme"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 342.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hubert/desktop/programs/studies/bachelor/compile_commands.json",
+				"/home/hubert/desktop/programs/studies/bachelor/tmp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/allocator.hpp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/static_vector.hpp",
+				"/home/hubert/desktop/programs/studies/bachelor/static_vector/Makefile",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g2.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/g/g1.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/check.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c5.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/e/e.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c.cpp",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c3.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c2.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c1.in",
+				"/home/hubert/desktop/programs/contests/misc/eliminacje#3/c/c4.in",
+				"/tmp/kite_tutorial.py",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NRPA.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/State.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/SameGame.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Action.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/BeamSearch.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/MCTS.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/MCTS.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/State.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NMCS.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/NMCS.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Strategy.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Strategy.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/BeamSearch.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/runtest",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/SameGame.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/.gitignore",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/result.bad",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/traces/binary2.rep",
+				"/home/hubert/desktop/programs/studia/so/pracownia/so-malloc/mdriver.c",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/testcase3.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/tests/testcase6.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l6/src/Action.cpp",
+				"/home/hubert/desktop/programs/studia/c++stl/tests/colors/col.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest/g/g3.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest/c/c.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/Action.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/tests/testcase1.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l5/src/printer.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/JPSPlus.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/JPSPlus.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/runtime/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l4/src/testcase2.txt",
+				"/home/hubert/desktop/programs/contests/moscow/fall-2020/day5/test.cpp",
+				"/home/hubert/desktop/programs/studia/so/lista/l8/so20_lista_8/test.h",
+				"/home/hubert/desktop/programs/contests/moscow/fall-2020/day1/l/l4.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i4.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i3.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/i.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/i/brut.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/k/k1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/c/c.cpp",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j3.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j2.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j1.in",
+				"/home/hubert/desktop/programs/contests/misc/tmp/j/j.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/State.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/State.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Options.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/Options.hpp",
+				"/home/hubert/desktop/programs/contests/misc/ICPC Central Russia Regional Contest (CERC 18)/d/d.py",
+				"/home/hubert/desktop/programs/contests/misc/ICPC Central Russia Regional Contest (CERC 18)/c/c.in",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l3/src/CGSolver.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/i/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/c/test.cpp",
+				"/home/hubert/desktop/programs/contests/misc/The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest/i/i2.h>",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/simulator.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Common.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/main.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Drawer.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Drawer.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/easy_on_the_right.txt",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Common.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Agent.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Agent.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/CGSolver.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/merger",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Makefile",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Evolution.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Evolution.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Options.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Options.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Map.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Map.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/solution.cpp",
+				"/home/hubert/desktop/programs/contests/misc/2019-2020 ICPC Asia Taipei-Hsinchu Regional Contest/h/h.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/simulator.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/Simulator.cpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/tests/Simulator.hpp",
+				"/home/hubert/desktop/programs/studia/ai4g/lista/l2/src/Action.cpp",
+				"/home/hubert/.config/sublime-text-3/Packages/User/C++YouCompleteMe.sublime-settings",
+				"/home/hubert/.config/sublime-text-3/Packages/C++YouCompleteMe/C++YouCompleteMe.sublime-settings",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/c.cpp",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/b.cpp",
+				"/home/hubert/Desktop/Programs/moscowprefinals/day1/a.cpp",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/router.c",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/router.cpp",
+				"/home/hubert/Desktop/Programs/studia/sieci/p2/udp_client",
+				"/home/hubert/log1"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 161.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.CppYCM.2":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 132.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,15,35,1050,1059,1920,1080",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"stat",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"comp",
+						"compile_commands.json"
+					],
+					[
+						"stati",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"satt",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"tm",
+						"tmp"
+					],
+					[
+						"static",
+						"include/container/static_vector.hpp"
+					],
+					[
+						"make",
+						"Makefile"
+					],
+					[
+						"main.c",
+						"main.cpp"
+					],
+					[
+						"allo",
+						"allocator.hpp"
+					],
+					[
+						"main",
+						"main.cpp"
+					],
+					[
+						"main.",
+						"main.cpp"
+					],
+					[
+						"null",
+						"NullObject.cs"
+					],
+					[
+						"mem",
+						"memory.hpp"
+					],
+					[
+						"makef",
+						"Makefile"
+					],
+					[
+						"rvec",
+						"rvector.h"
+					],
+					[
+						"s",
+						"static_rvector.hpp"
+					],
+					[
+						"ts",
+						"tsv_test.cpp"
+					],
+					[
+						"b.c",
+						"b.cpp"
+					],
+					[
+						"data",
+						"database.py"
+					],
+					[
+						"db",
+						"db.py"
+					],
+					[
+						"view",
+						"View.cpp"
+					],
+					[
+						"",
+						"driver.py"
+					],
+					[
+						"nrpa",
+						"NRPA.cpp"
+					],
+					[
+						"runtest",
+						"runtest"
+					],
+					[
+						"state",
+						"State.cpp"
+					],
+					[
+						"nmcs",
+						"NMCS.cpp"
+					],
+					[
+						"same",
+						"SameGame.hpp"
+					],
+					[
+						"com",
+						"Common.hpp"
+					],
+					[
+						"nr",
+						"NRPA.hpp"
+					],
+					[
+						"comm",
+						"Common.cpp"
+					],
+					[
+						"acti",
+						"Action.hpp"
+					],
+					[
+						"stra",
+						"Strategy.hpp"
+					],
+					[
+						"beam",
+						"BeamSearch.cpp"
+					],
+					[
+						"mcts",
+						"MCTS.cpp"
+					],
+					[
+						"nm",
+						"NMCS.hpp"
+					],
+					[
+						"merger",
+						"merger"
+					],
+					[
+						"nmc",
+						"NMCS.cpp"
+					],
+					[
+						"man",
+						"main.cpp"
+					],
+					[
+						"strate",
+						"Strategy.hpp"
+					],
+					[
+						"mcs",
+						"MCTS.hpp"
+					],
+					[
+						"state.c",
+						"State.cpp"
+					],
+					[
+						"Com",
+						"Common.hpp"
+					],
+					[
+						"sameg",
+						"SameGame.hpp"
+					],
+					[
+						"mer",
+						"merger"
+					],
+					[
+						"bea",
+						"BeamSearch.cpp"
+					],
+					[
+						"coom",
+						"Common.hpp"
+					],
+					[
+						"actio",
+						"Action.hpp"
+					],
+					[
+						"res",
+						"result.bad"
+					],
+					[
+						"binary2.re",
+						"traces/binary2.rep"
+					],
+					[
+						"resu",
+						"result.bad"
+					],
+					[
+						"mdri",
+						"mdriver.c"
+					],
+					[
+						"mm.c",
+						"mm.c"
+					],
+					[
+						"mm-",
+						"mm-implicit.c"
+					],
+					[
+						"mm",
+						"mm.c"
+					],
+					[
+						"mdriver",
+						"mdriver.c"
+					],
+					[
+						"memlib",
+						"memlib.c"
+					],
+					[
+						"common",
+						"Common.cpp"
+					],
+					[
+						"stae",
+						"State.hpp"
+					],
+					[
+						"state.",
+						"State.cpp"
+					],
+					[
+						"state.cpp",
+						"State.cpp"
+					],
+					[
+						"state.hpp",
+						"State.hpp"
+					],
+					[
+						"c",
+						"Common.hpp"
+					],
+					[
+						"act",
+						"Action.hpp"
+					],
+					[
+						"server",
+						"echoserver-poll.c"
+					],
+					[
+						"cpm",
+						"Common.hpp"
+					],
+					[
+						"ac",
+						"Action.cpp"
+					],
+					[
+						"prin",
+						"printer.cpp"
+					],
+					[
+						"test",
+						"tests/testcase1.txt"
+					],
+					[
+						"testcas",
+						"tests/testcase1.txt"
+					],
+					[
+						"gowno",
+						"gowno"
+					],
+					[
+						"jps",
+						"JPSPlus.cpp"
+					],
+					[
+						"merg",
+						"merger"
+					],
+					[
+						"JPS",
+						"JPSPlus.cpp"
+					],
+					[
+						"makefie",
+						"Makefile"
+					],
+					[
+						"test.h",
+						"test.h"
+					],
+					[
+						"obj",
+						"objpool.c"
+					],
+					[
+						"makefi",
+						"Makefile"
+					],
+					[
+						"delta",
+						"Delta.cpp"
+					],
+					[
+						"bat",
+						"Battle.hpp"
+					],
+					[
+						"comom",
+						"Common.cpp"
+					],
+					[
+						"action",
+						"Action.hpp"
+					],
+					[
+						"batt",
+						"Battle.hpp"
+					],
+					[
+						"battl",
+						"Battle.hpp"
+					],
+					[
+						"delta.c",
+						"Delta.cpp"
+					],
+					[
+						"battle.",
+						"Battle.cpp"
+					],
+					[
+						"shel",
+						"shell.c"
+					],
+					[
+						"battle",
+						"Battle.cpp"
+					],
+					[
+						"commo",
+						"Common.cpp"
+					],
+					[
+						"delta.",
+						"Delta.cpp"
+					],
+					[
+						"cgso",
+						"CGSolver.cpp"
+					],
+					[
+						"mak",
+						"Makefile"
+					],
+					[
+						"opt",
+						"Options.cpp"
+					],
+					[
+						"evo",
+						"Evolution.cpp"
+					],
+					[
+						"map.c",
+						"Map.cpp"
+					],
+					[
+						"options",
+						"Options.cpp"
+					],
+					[
+						"evol",
+						"Evolution.cpp"
+					],
+					[
+						"map.cp",
+						"Map.cpp"
+					],
+					[
+						"coo",
+						"Common.hpp"
+					],
+					[
+						"simul",
+						"simulator.cpp"
+					],
+					[
+						"eas",
+						"tests/easy_on_the_right.txt"
+					],
+					[
+						"merge",
+						"merger"
+					],
+					[
+						"cgsol",
+						"CGSolver.cpp"
+					],
+					[
+						"aget",
+						"Agent.cpp"
+					],
+					[
+						"ae",
+						"Agent.hpp"
+					],
+					[
+						"drawer",
+						"Drawer.cpp"
+					],
+					[
+						"optio",
+						"Options.cpp"
+					],
+					[
+						"opti",
+						"Options.hpp"
+					],
+					[
+						"simu",
+						"simulator.cpp"
+					],
+					[
+						"makefile",
+						"Makefile"
+					],
+					[
+						"map.hpp",
+						"Map.hpp"
+					],
+					[
+						"ev",
+						"Evolution.cpp"
+					],
+					[
+						"map.h",
+						"Map.hpp"
+					],
+					[
+						"mapc.",
+						"Map.cpp"
+					],
+					[
+						"op",
+						"Options.cpp"
+					],
+					[
+						"makfi",
+						"Makefile"
+					],
+					[
+						"agent.hp",
+						"Agent.hpp"
+					],
+					[
+						"agent.cp",
+						"Agent.cpp"
+					],
+					[
+						"map.hp",
+						"Map.hpp"
+					],
+					[
+						"sim",
+						"simulator.cpp"
+					],
+					[
+						"su",
+						"simulator.cpp"
+					],
+					[
+						"ag",
+						"Agent.cpp"
+					],
+					[
+						"agent",
+						"Agent.hpp"
+					],
+					[
+						"map.",
+						"Map.hpp"
+					],
+					[
+						"optn",
+						"Options.hpp"
+					],
+					[
+						"main.cp",
+						"main.cpp"
+					],
+					[
+						"drawer.cpp",
+						"Drawer.cpp"
+					],
+					[
+						"makf",
+						"Makefile"
+					],
+					[
+						"drawe",
+						"Drawer.hpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 354.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 574.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 129
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

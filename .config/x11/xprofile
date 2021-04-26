@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# /bin/sh --login & 	# login
+zsh --login & 	  	# login
+setbg & 			# set background
+slstatus & 			# statusbar
+dunst & 			# dunst for notifications
