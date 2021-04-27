@@ -58,7 +58,7 @@ lfcd () {
 
 bindkey -s '^o' 'lfcd\n'
 bindkey -s '^G' 'bc -lq\n'
-bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
+# bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
 bindkey '^[[P' delete-char
 
 # Edit line in vim with ctrl-i:

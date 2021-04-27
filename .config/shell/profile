@@ -1,53 +1,57 @@
 #!/bin/bash
 
-export PATH="$PATH:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.local/bin/scripts/cf_submit"
-
-# Custom C/C++ flags:
-export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -D LOCAL" # additional flags for make and C++ files
-export CFLAGS="-Wall -Wextra -ggdb" # additional flags for make and C files
+# Path:
+	export PATH="$PATH:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.local/bin/scripts/cf_submit"
 
 # Default programs:
-export EDITOR="nvim"
-export TERMINAL="st"
-export BROWSER="brave"
-
-# Custom directories:
-export STUD="$HOME/desktop/programs/studies"
-export WALLPAPER="$HOME/desktop/misc/photos/wallpaper.jpg"
-export TEMPLATE_DIR="$HOME/desktop/misc/templates" # path to the directory with templates
-export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
-export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
+	export EDITOR="nvim"
+	export TERMINAL="st"
+	export BROWSER="brave"
 
 # Custom variables:
-export HISTSIZE=2000
-export DOTNET_CLI_TELEMETRY_OPTOUT=1 # optout from dotnet data collect
+	export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -D LOCAL"
+	export CFLAGS="-Wall -Wextra -ggdb"
+	export HISTSIZE=2000
+	# optout from dotnet data collect
+	export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# Custom directories:
+	export STUD="$HOME/desktop/programs/studies"
+	export WALLPAPER="$HOME/desktop/misc/photos/wallpaper.jpg"
+	export TEMPLATE_DIR="$HOME/desktop/misc/templates" # path to the directory with templates
+	export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
+	export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
 
 # ~/ Clean-up:
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
-export LESSHISTFILE="-"
-export TEXMFHOME="${XDG_DATA_HOME:-$HOME/.local/share}/texmf"
-export TEXMFVAR="${XDG_CACHE_HOME:-$HOME/.cache}/texlive/texmf-var"
-export TEXMFCONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/texlive/texmf-config"
-export XINITRC="${XDG_CONFIG_HOME:-$HOME/.config}/x11/xinitrc"
-export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
-export GNUPGHOME="${XDG_DATA_HOME:-$HOME/.local/share}/gnupg"
-export IPYTHONDIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
-export JUPYTER_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="${XDG_CONFIG_HOME:-$HOME/.config}/java"
-export NUGET_PACKAGES="${XDG_CACHE_HOME:-$HOME/.cache}/NuGetPackages"
-export VSCODE_PORTABLE="${XDG_DATA_HOME:-$HOME/.local/share}/vscode"
-export DOTNET_CLI_HOME="${XDG_CACHE_HOME:-$HOME/.cache}/dotnetcli"
-export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
-export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
+	export XDG_CONFIG_HOME="$HOME/.config"
+	export XDG_DATA_HOME="$HOME/.local/share"
+	export XDG_CACHE_HOME="$HOME/.cache"
+	export LESSHISTFILE="-"
+	export TEXMFHOME="${XDG_DATA_HOME:-$HOME/.local/share}/texmf"
+	export TEXMFVAR="${XDG_CACHE_HOME:-$HOME/.cache}/texlive/texmf-var"
+	export TEXMFCONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/texlive/texmf-config"
+	export XINITRC="${XDG_CONFIG_HOME:-$HOME/.config}/x11/xinitrc"
+	export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
+	export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+	export GNUPGHOME="${XDG_DATA_HOME:-$HOME/.local/share}/gnupg"
+	export IPYTHONDIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
+	export JUPYTER_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
+	export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="${XDG_CONFIG_HOME:-$HOME/.config}/java"
+	export NUGET_PACKAGES="${XDG_CACHE_HOME:-$HOME/.cache}/NuGetPackages"
+	export VSCODE_PORTABLE="${XDG_DATA_HOME:-$HOME/.local/share}/vscode"
+	export DOTNET_CLI_HOME="${XDG_CACHE_HOME:-$HOME/.cache}/dotnetcli"
+	export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
+	export WGETRC="${XDG_CONFIG_HOME:-$HOME/.config}/wget/wgetrc"
 
 # Custom setup:
-setxkbmap pl # polskie znaki
-setxkbmap -option caps:escape # map caps lock to espace
-touchpad-toggle # automatically turn off touchpad at start
-type pageupdown-disable && pageupdown-disable # disable PageUp, PageDown keys because they are annoying
+	# polskie znaki
+	setxkbmap pl
+	# map CapsLock into Escape
+	setxkbmap -option caps:escape
+	# automatically turn off touchpad at start
+	touchpad-toggle
+	# disable PageUp, PageDown keys because they are annoying
+	type pageupdown-disable &>/dev/null && pageupdown-disable
 
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then # automatically "type" startx after login
   exec startx "$XINITRC"
