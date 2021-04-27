@@ -12,24 +12,27 @@
 	# custom script in which I want to change directory in outer shell (so have to source it)
 	alias con=". con"
 	alias open='xdg-open'
-
-# shortcuts:
 	alias vim="nvim -c 'set scroll=10'"
 	alias nvim="nvim -c 'set scroll=10'"
 	alias jupyter="run 'jupyter notebook --browser=chromium'"
 
-# custom directories:
-	alias misc='cd ~/desktop/misc'
-	alias suck="cd ~/desktop/misc/suckless"
+# shortcuts:
+	# custom
+	alias suck='cd ~/.local/bin/suckless'
+	alias scripts='cd ~/.local/bin/scripts'
+	alias job='cd "$(xdg-user-dir DOCUMENTS)/job"'
 	alias codeforces='cd ~/desktop/programs/codeforces'
 	alias atcoder='cd ~/desktop/programs/atcoder'
-	alias stud='cd $STUD'
-	alias scripts='cd ~/.local/bin/scripts'
 	alias tutorials='cd ~/desktop/programs/tutorials'
 	alias train='cd ~/desktop/programs/contests/misc'
-	alias job='cd ~/desktop/misc/job'
-	alias current='cd ~/desktop/programs/contests/misc/2020-2021_ACM-ICPC_Brazil_Subregional_Programming_Contest'
+	alias stud='cd $STUD'
 	alias cppsrc='cd /usr/include/c++/10.2.0'
+	# configuration files
+	alias bashrc='$EDITOR ~/.config/bash/bashrc && [ "$SHELL" = /bin/bash ] && echo bash && source ~/.config/bash/bashrc'
+	alias zshrc='$EDITOR ~/.config/zsh/zshrc && [ "$SHELL" = /bin/zsh ] && echo zsh && source ~/.config/zsh/zshrc'
+	alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
+	alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
+	# going up dir
 	alias ..='cd ../'
 	alias ...='cd ../..'
 	alias ....='cd ../../..'
