@@ -17,8 +17,7 @@
 
 # Custom directories:
 	export STUD="$HOME/desktop/programs/studies"
-	export WALLPAPER="$HOME/desktop/misc/photos/wallpaper.jpg"
-	export TEMPLATE_DIR="$HOME/desktop/misc/templates" # path to the directory with templates
+	export WALLPAPER="$(xdg-user-dir PICTURES)/wallpaper.jpg"
 	export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
 	export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
 
