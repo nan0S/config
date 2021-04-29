@@ -18,7 +18,7 @@ complete -cf run
 [ -e /usr/share/git/completion/git-prompt.sh ] &&
 	. /usr/share/git/completion/git-prompt.sh
 
-# aliases
+# Load aliases if existent:
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] &&
 	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 
