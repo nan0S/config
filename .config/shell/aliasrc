@@ -17,6 +17,7 @@
 	alias jupyter="run 'jupyter notebook --browser=chromium'"
 	alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
 	alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
+	alias mutt='neomutt'
 
 # shortcuts:
 	# custom
