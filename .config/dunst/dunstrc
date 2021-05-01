@@ -7,9 +7,9 @@
     transparency = 20
     notification_height = 0
     separator_height = 2
-    padding = 0
-    horizontal_padding = 8
-    frame_width = 3
+    padding = 5
+    horizontal_padding = 10
+    frame_width = 5
     frame_color = "#282828"
 
     # Define a color for the separator.
@@ -24,7 +24,8 @@
     sort = yes
 
     idle_threshold = 120
-    font = Monospace 14
+	# font = Monospace 11
+	font = Source Code Pro 10
     line_height = 0
     markup = full
 

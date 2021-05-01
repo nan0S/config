@@ -45,6 +45,12 @@
 	export PSQL_HISTORY="${XDG_CACHE_HOME:-$HOME/.cache}/pg/psql_history"
 	export PGPASSFILE="${XDG_CONFIG_HOME:-$HOME/.config}/pg/pgpass"
 	export PGSERVICEFILE="${XDG_CONFIG_HOME:-$HOME/.config}/pg/pg_service.conf"
+	export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/pass"
+	export NOTMUCH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/notmuch/notmuchrc"
+	export NMBGIT="${XDG_DATA_HOME:-$HOME/local/share}/notmuch/nmbug"
+	export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/isync/mbsyncrc"
+	export ABOOKRC="${XDG_CONFIG_HOME:-$HOME/.config}/abook/abookrc"
+	export ABOOKADDRBOOK="${XDG_CONFIG_HOME:-$HOME/.config}/abook/addressbook"
 
 # Custom setup:
 	# polskie znaki

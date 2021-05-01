@@ -71,7 +71,7 @@ bindkey '^[[P' delete-char
 
 # Edit line in vim with Ctrl-I:
 autoload edit-command-line; zle -N edit-command-line
-bindkey '^V' edit-command-line
+bindkey '^e' edit-command-line
 
 # Load fast goind back to updir:
 source /usr/share/zsh/plugins/zsh-bd/bd.zsh 2>/dev/null
