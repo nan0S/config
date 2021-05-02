@@ -65,6 +65,9 @@
 # Load aliases if existent:
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] &&
 	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
+# Load aliases if existent:
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&
+	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc"
 
 # automatically "type" startx after login
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
