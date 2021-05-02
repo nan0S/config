@@ -3,7 +3,7 @@
 set realname = "Hubert Obrzut"
 set from = "skoczek133@gmail.com"
 set sendmail = "msmtp -a skoczek133@gmail.com"
-alias me Hubert Obrzut <skoczek133@gmail.com>
+alias me skoczek133 <skoczek133@gmail.com>
 set folder = "/home/hubert/.local/share/mail/skoczek133@gmail.com"
 set header_cache = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/headers
 set message_cachedir = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/bodies
@@ -31,9 +31,9 @@ macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
 macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
 macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
 set record = "+[Gmail]/Sent"
-macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "go to sent"
-macro index,pager Ms ";<save-message>=[Gmail]/Sent Mail<enter>" "move mail to sent"
-macro index,pager Cs ";<copy-message>=[Gmail]/Sent Mail<enter>" "copy mail to sent"
+macro index,pager gs "<change-folder>=[Gmail]/Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent<enter>" "copy mail to sent"
 macro index,pager gS "<change-folder>=[Gmail]/Spam<enter>" "go to spam"
 macro index,pager MS ";<save-message>=[Gmail]/Spam<enter>" "move mail to spam"
 macro index,pager CS ";<copy-message>=[Gmail]/Spam<enter>" "copy mail to spam"

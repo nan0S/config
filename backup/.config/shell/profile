@@ -52,14 +52,21 @@
 	export ABOOKRC="${XDG_CONFIG_HOME:-$HOME/.config}/abook/abookrc"
 	export ABOOKADDRBOOK="${XDG_CONFIG_HOME:-$HOME/.config}/abook/addressbook"
 
+# Custom setup:
+	# polskie znaki
+	setxkbmap pl
+	# map CapsLock into Escape
+	setxkbmap -option caps:escape
+	# automatically turn off touchpad at start
+	touchpad-toggle
+	# disable PageUp, PageDown keys because they are annoying
+	type pageupdown-disable >/dev/null && pageupdown-disable
+
 # Load aliases if existent:
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] &&
 	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
-# Load aliases if existent:
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&
-	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc"
 
 # automatically "type" startx after login
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-	exec startx "$XINITRC"
+  exec startx "$XINITRC"
 fi
