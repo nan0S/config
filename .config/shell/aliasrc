@@ -28,8 +28,13 @@
 	alias zshrc='$EDITOR ~/.config/zsh/zshrc && [ "$SHELL" = /bin/zsh ] && echo zsh && source ~/.config/zsh/zshrc'
 	alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
 	alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
+	alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
 	# going up dir
 	alias ..='cd ../'
 	alias ...='cd ../..'
 	alias ....='cd ../../..'
 	alias .....='cd ../../../..'
+
+# read specific aliases if existent
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&
+	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc"
