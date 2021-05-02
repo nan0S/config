@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# general aliases
+
 # commands:
 	alias sudo='sudo '
 	alias pacman='pacman --color=auto'
