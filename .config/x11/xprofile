@@ -1,6 +1,9 @@
 #!/bin/sh
 
-zsh --login & 	  	# login
-setbg -m & 			# set background
-slstatus & 			# statusbar
-dunst & 			# dunst for notifications
+setxkbmap pl 					# polskie znaki
+setxkbmap -option caps:escape   # map CapsLock into Escape
+touchpad-toggle & 				# automatically turn off touchpad at start
+pageupdown-disable & 			# disable PageUp, PageDown keys because they are annoying
+setbg -m & 						# set background
+slstatus & 						# statusbar
+dunst & 						# dunst for notifications

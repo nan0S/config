@@ -1,12 +1,12 @@
 # vim: filetype=neomuttrc
-# muttrc file for account skoczek133@gmail.com
-set realname = "Hubert Obrzut"
-set from = "skoczek133@gmail.com"
-set sendmail = "msmtp -a skoczek133@gmail.com"
-alias me Hubert Obrzut <skoczek133@gmail.com>
-set folder = "/home/hubert/.local/share/mail/skoczek133@gmail.com"
-set header_cache = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/headers
-set message_cachedir = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/bodies
+# muttrc file for account nikiux1333@gmail.com
+set realname = "nikiux1333"
+set from = "nikiux1333@gmail.com"
+set sendmail = "msmtp -a nikiux1333@gmail.com"
+alias me nikiux1333 <nikiux1333@gmail.com>
+set folder = "/home/hubert/.local/share/mail/nikiux1333@gmail.com"
+set header_cache = /home/hubert/.cache/mutt-wizard/nikiux1333@gmail.com/headers
+set message_cachedir = /home/hubert/.cache/mutt-wizard/nikiux1333@gmail.com/bodies
 set mbox_type = Maildir
 
 
@@ -19,7 +19,7 @@ unmailboxes *
 unalternates *
 unset signature
 unmacro index o
-macro index o "<shell-escape>mw -y skoczek133@gmail.com<enter>" "run mbsync to sync skoczek133@gmail.com"
+macro index o "<shell-escape>mw -y nikiux1333@gmail.com<enter>" "run mbsync to sync nikiux1333@gmail.com"
 
 mailboxes "=INBOX" "=[Gmail]/Sent Mail" "=[Gmail]/Starred" "=[Gmail]/Drafts" "=[Gmail]/Spam" "=[Gmail]/Trash"
 macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
@@ -31,9 +31,9 @@ macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
 macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
 macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
 set record = "+[Gmail]/Sent"
-macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "go to sent"
-macro index,pager Ms ";<save-message>=[Gmail]/Sent Mail<enter>" "move mail to sent"
-macro index,pager Cs ";<copy-message>=[Gmail]/Sent Mail<enter>" "copy mail to sent"
+macro index,pager gs "<change-folder>=[Gmail]/Sent<enter>" "go to sent"
+macro index,pager Ms ";<save-message>=[Gmail]/Sent<enter>" "move mail to sent"
+macro index,pager Cs ";<copy-message>=[Gmail]/Sent<enter>" "copy mail to sent"
 macro index,pager gS "<change-folder>=[Gmail]/Spam<enter>" "go to spam"
 macro index,pager MS ";<save-message>=[Gmail]/Spam<enter>" "move mail to spam"
 macro index,pager CS ";<copy-message>=[Gmail]/Spam<enter>" "copy mail to spam"

@@ -3,7 +3,7 @@
 set realname = "Hubert Obrzut"
 set from = "hubert.obrzut@gmail.com"
 set sendmail = "msmtp -a hubert.obrzut@gmail.com"
-alias me hubert.obrzut <hubert.obrzut@gmail.com>
+alias me Hubert Obrzut <hubert.obrzut@gmail.com>
 set folder = "/home/hubert/.local/share/mail/hubert.obrzut@gmail.com"
 set header_cache = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/headers
 set message_cachedir = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/bodies

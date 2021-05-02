@@ -1,12 +1,12 @@
 # vim: filetype=neomuttrc
-# muttrc file for account skoczek133@gmail.com
+# muttrc file for account hubert.obrzut@gmail.com
 set realname = "Hubert Obrzut"
-set from = "skoczek133@gmail.com"
-set sendmail = "msmtp -a skoczek133@gmail.com"
-alias me Hubert Obrzut <skoczek133@gmail.com>
-set folder = "/home/hubert/.local/share/mail/skoczek133@gmail.com"
-set header_cache = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/headers
-set message_cachedir = /home/hubert/.cache/mutt-wizard/skoczek133@gmail.com/bodies
+set from = "hubert.obrzut@gmail.com"
+set sendmail = "msmtp -a hubert.obrzut@gmail.com"
+alias me hubert.obrzut <hubert.obrzut@gmail.com>
+set folder = "/home/hubert/.local/share/mail/hubert.obrzut@gmail.com"
+set header_cache = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/headers
+set message_cachedir = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/bodies
 set mbox_type = Maildir
 
 
@@ -19,7 +19,7 @@ unmailboxes *
 unalternates *
 unset signature
 unmacro index o
-macro index o "<shell-escape>mw -y skoczek133@gmail.com<enter>" "run mbsync to sync skoczek133@gmail.com"
+macro index o "<shell-escape>mw -y hubert.obrzut@gmail.com<enter>" "run mbsync to sync hubert.obrzut@gmail.com"
 
 mailboxes "=INBOX" "=[Gmail]/Sent Mail" "=[Gmail]/Starred" "=[Gmail]/Drafts" "=[Gmail]/Spam" "=[Gmail]/Trash"
 macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
