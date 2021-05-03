@@ -72,6 +72,10 @@
 	" autocmd BufWritePre * %s/\s\+$//e
 	" autocmd BufWritePre * %s/\n\+\%$//e
 	" autocmd BufWritePre *.[ch] %s/\%$/\r/e
+	" use spaces instead of tabs
+	set expandtab
+	" set how to show whitespaces
+	set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 " Plugins:
 call plug#begin('~/.config/nvim/plugged')
@@ -167,12 +171,12 @@ call plug#end()
 	tnoremap <Esc> <C-\><C-n>
 	" open terminal and go to insert mode in terminal
 	nnoremap <leader>t :vsplit<Bar>terminal<CR><Bar>:wincmd x<CR><Bar>:wincmd p<CR>i
-	" source .vimrc easily
-	nnoremap <leader>rc :source ~/.vimrc<CR>
 	" save file with Ctrl-S
 	nnoremap <C-S> :update<CR>
 	vnoremap <C-S> <C-C>:update<CR>
 	inoremap <C-S> <C-O>:update<CR>
+	" toggle showing whitespace
+	nnoremap <C-C> :set list!<CR>
 
 " NERDTree:
 	" Check if NERDTree is open or active

@@ -4,6 +4,9 @@
 autoload -Uz vcs_info
 precmd() { vcs_info }
 
+GPG_TTY=$(tty)
+export GPG_TTY
+
 # Format the vcs_info_msg_0_ variable:
 zstyle ':vcs_info:git:*' formats '(%b)'
  

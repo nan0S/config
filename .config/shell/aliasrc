@@ -29,6 +29,8 @@
 	alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
 	alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
 	alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
+	alias xinitrc='$EDITOR ~/.config/x11/xinitrc'
+	alias xprofile='$EDITOR ~/.config/x11/xprofile'
 	# going up dir
 	alias ..='cd ../'
 	alias ...='cd ../..'
