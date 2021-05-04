@@ -1,4 +1,9 @@
 # vim: filetype=conf
+#
+## Directories ##
+ncmpcpp_directory = "~/.config/ncmpcpp"
+lyrics_directory = "~/.local/share/lyrics"
+mpd_music_dir = "~/music"
 
 ## Display Modes ##
 playlist_editor_display_mode = "columns"
@@ -74,3 +79,5 @@ centered_cursor = "yes"
 display_bitrate = "yes"
 enable_window_title = "yes"
 empty_tag_marker = ""
+allow_for_physical_item_deletion = yes
+message_delay_time = "1"
