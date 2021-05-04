@@ -7,3 +7,6 @@ setbg -m & 				# set background
 slstatus & 				# statusbar
 dunst & 				# dunst for notifications
 mpd & 					# music player daemon
+
+# temporary - does not know how to setup pam-gnupg to unlock password automatically after login
+(sleep 0.1 && pass skoczek133@gmail.com) & 
