@@ -1,0 +1,10 @@
+[Default Applications]
+application/pdf=pdf.desktop
+image/gif=image.desktop
+text/x-tex=latex.desktop
+image/jpeg=image.desktop
+image/png=image.desktop
+inode/directory=directory.desktop
+text/plain=text.desktop
+video/mp4=video.desktop
+video/webm=video.desktop

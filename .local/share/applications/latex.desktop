@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=LaTeX editor
+Exec=/usr/bin/texmaker -n %u

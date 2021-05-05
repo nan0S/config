@@ -18,7 +18,7 @@ unsetopt PROMPT_SP
 
 # Set prompt (with git branch name):
 setopt PROMPT_SUBST
-PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[green]%}${vcs_info_msg_0_} %{$fg[magenta]%}%c%{$fg[red]%}]%{$reset_color%}$%b '
+PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[green]%}${vcs_info_msg_0_} %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b '
 
 # Automatically cd into typed directory.
 setopt autocd
