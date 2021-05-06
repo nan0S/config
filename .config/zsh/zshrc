@@ -14,7 +14,10 @@ zstyle ':vcs_info:git:*' formats '(%b)'
 autoload -U colors && colors
 
 # Get rid off strange percent sign if you start typing fast after zsh start:
-unsetopt PROMPT_SP
+# unsetopt PROMPT_SP
+# setopt PROMPT_CR
+# setopt PROMPT_SP
+# export PROMPT_EOL_MARK=""
 
 # Set prompt (with git branch name):
 setopt PROMPT_SUBST

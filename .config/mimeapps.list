@@ -8,3 +8,4 @@ inode/directory=directory.desktop
 text/plain=text.desktop
 video/mp4=video.desktop
 video/webm=video.desktop
+x-scheme-handler/msteams=teams.desktop
