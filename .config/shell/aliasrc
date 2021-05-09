@@ -36,6 +36,8 @@
 	alias ...='cd ../..'
 	alias ....='cd ../../..'
 	alias .....='cd ../../../..'
+    # git
+    alias ga='git add . && git commit && git push'
 
 # read specific aliases if existent
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&

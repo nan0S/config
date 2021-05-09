@@ -16,6 +16,7 @@
 	alias train='cd ~/desktop/programs/contests/misc'
 	alias stud='cd $STUD'
 	alias cppsrc='cd /usr/include/c++/10.2.0'
+    alias current='cd ~/desktop/programs/contests/misc/2020-2021_ICPC_NERC_Northern_Eurasia_Onsite'
 
 # studies:
 	# II semester
