@@ -51,6 +51,7 @@
 	export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/isync/mbsyncrc"
 	export ABOOKRC="${XDG_CONFIG_HOME:-$HOME/.config}/abook/abookrc"
 	export ABOOKADDRBOOK="${XDG_CONFIG_HOME:-$HOME/.config}/abook/addressbook"
+    export SSB_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/zoom"
 
 # automatically "type" startx after login
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 && $USER != root ]]; then
