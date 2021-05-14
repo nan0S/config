@@ -97,6 +97,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'itchyny/lightline.vim'
 	" move lines and visual blocks like in VSCode
 	Plug 'matze/vim-move'
+    " C++ richer syntax highlighting
+    Plug 'bfrg/vim-cpp-modern'
+    " vim-github-dark colorscheme
+    Plug 'wojciechkepka/vim-github-dark'
 call plug#end()
 
 " Shortcuts:
@@ -340,9 +344,11 @@ call plug#end()
 
 " Theme:
 	" set colorscheme to gruvbox
-	colorscheme gruvbox
+    colorscheme gruvbox
 	" background to dark
 	set background=dark
+    " for vim-github-dark
+    " let g:gh_color = "soft"
 
 " Other:
 	let g:python3_host_prog='/bin/python'

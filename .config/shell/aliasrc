@@ -19,6 +19,8 @@
 	alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
 	alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
 	alias mutt='neomutt'
+    alias pip='pip-pss'
+    alias pip3='pip-pss'
 
 # shortcuts:
 	# custom
@@ -31,6 +33,7 @@
 	alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
 	alias xinitrc='$EDITOR ~/.config/x11/xinitrc'
 	alias xprofile='$EDITOR ~/.config/x11/xprofile'
+    alias vimrc='$EDITOR ~/.config/nvim/init.vim'
 	# going up dir
 	alias ..='cd ../'
 	alias ...='cd ../..'
