@@ -168,7 +168,7 @@ call plug#end()
 	" close all buffers force without saving
 	nnoremap <leader>x :qa!<CR>
 	" find files in project with CtrlP
-	nnoremap <leader>pf :CtrlP<CR>
+	" nnoremap <leader>pf :CtrlP<CR>
 	" easy use of rip grep
 	nnoremap <leader>ps :Rg<SPACE>
 	" exit terminal mode
@@ -181,6 +181,8 @@ call plug#end()
 	inoremap <C-S> <C-O>:update<CR>
 	" toggle showing whitespace
 	nnoremap <C-C> :set list!<CR>
+    " source vimrc
+    nnoremap <leader>rc :source $MYVIMRC<CR>
 
 " NERDTree:
 	" Check if NERDTree is open or active
@@ -358,6 +360,9 @@ call plug#end()
 	" ignore custom files when searching with CtrlP
 	let g:ctrlp_custom_ignore = {
 	\ 'dir':  '\v[\/]\.(git|hg|svn)$',
-	\ 'file': '\v\.(o|exe|so|dll)$',
+	\ 'file': '\v\.(o|d|exe|so|dll)$',
 	\ 'link': 'some_bad_symbolic_links',
 	\ }
+    " set current directory to look in to be nearest ancestor with .git folder ('r' option)
+    " if jumped to another file, outside of our working tree, search there ('a' option)
+    let g:ctrlp_working_path_mode = 'ra'
