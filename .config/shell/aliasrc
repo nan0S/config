@@ -15,7 +15,7 @@
 	alias open='xdg-open'
 	alias vim="nvim -c 'set scroll=10'"
 	alias nvim="nvim -c 'set scroll=10'"
-	alias jupyter="run 'jupyter notebook --browser=chromium'"
+	alias jupyter='run "jupyter notebook --browser=$BROWSER"'
 	alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
 	alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
 	alias mutt='neomutt'
@@ -44,6 +44,7 @@
     alias gs='git status'
     alias gc='git commit'
     alias gp='git push'
+    alias gd='git diff'
 
 # read specific aliases if existent
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&
