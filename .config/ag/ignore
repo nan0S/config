@@ -1,0 +1,8 @@
+.git
+.hg
+.svn
+*.o
+*.d
+*.exe
+*.so
+*.dll
