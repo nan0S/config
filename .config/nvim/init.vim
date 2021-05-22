@@ -358,11 +358,11 @@ call plug#end()
 	" remember that I changed vim-move plugin .vim to not map <C-h>, <C-l>
 	let g:move_key_modifier = 'C'
 	" ignore custom files when searching with CtrlP
-	" let g:ctrlp_custom_ignore = {
-	" \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-	" \ 'file': '\v\.(o|d|exe|so|dll)$',
-	" \ 'link': 'some_bad_symbolic_links',
-	" \ } 
+	let g:ctrlp_custom_ignore = {
+	\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+	\ 'file': '\v\.(o|d|exe|so|dll)$',
+	\ 'link': 'some_bad_symbolic_links',
+	\ }
     let g:ctrlp_user_command = 'ag %s -l --nocolor --path-to-ignore ~/.config/ag/ignore -g ""'
     " set current directory to look in to be nearest ancestor with .git folder ('r' option)
     " if jumped to another file, outside of our working tree, search there ('a' option)

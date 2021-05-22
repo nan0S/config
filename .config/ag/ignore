@@ -1,8 +1,8 @@
 .git
-.hg
 .svn
+.hg
 *.o
 *.d
-*.exe
 *.so
+*.exe
 *.dll

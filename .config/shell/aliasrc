@@ -12,10 +12,12 @@
 	alias igrep="grep -i"
 	alias ll='ls --color=always -lAFbhv | less -XER'
 	# custom script in which I want to change directory in outer shell (so have to source it)
+    alias ofind=". ofind"
+    # misc
 	alias open='xdg-open'
 	alias vim="nvim -c 'set scroll=10'"
 	alias nvim="nvim -c 'set scroll=10'"
-	alias jupyter='run "jupyter notebook --browser=$BROWSER"'
+	alias jupyter="run 'jupyter notebook --browser=$BROWSER'"
 	alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
 	alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
 	alias mutt='neomutt'
