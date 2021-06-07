@@ -4,6 +4,11 @@ do
     case "$1" in
 		"w")
 			setbg "$file" & ;;
+        "m")
+            [ -z "$destdir" ] && destdir="$(dmenu -l 20 -i -p "Move file(s) to where?" | sed "s|~|$HOME|g")"
+            [ -d "$destdir" ] && destdir="$destdir/$(basename "$file")"
+            [ ! -d "$(dirname "$destdir")" ] && notify-send "$destdir is not a directory, cancelled." && exit
+            mv "$file" "$destdir" && notify-send -i "$(readlink -f "$file")" "$file moved to $destdir." & ;;
 		"r")
 			convert -rotate 90 "$file" "$file" ;;
 		"R")

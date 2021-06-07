@@ -53,4 +53,4 @@
 	alias poo='cd $STUD/poo'
 	alias bazy='cd $STUD/bazy'
 	alias bachelor='cd $STUD/bachelor'
-	alias hyper='cd $STUD/ai4g/project/ai4g-project/hypersonic'
+    alias rgbt='cd $STUD/dl/project/rgbt'
