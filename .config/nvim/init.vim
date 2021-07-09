@@ -154,9 +154,10 @@ call plug#end()
 	" let g:lightline = {
 		  " \ 'colorscheme': 'seoul256',
 		  " \ }
-	" resizing splitted files
-	nnoremap - :resize -5<CR>
-	nnoremap + :resize +5<CR>
+    " resizing low bar
+    " nnoremap - :resize -5<CR>
+	" nnoremap + :resize +5<CR>
+    " resizing splitted files
 	nnoremap <leader>< :vert resize -5<CR>
 	nnoremap <leader>> :vert resize +5<CR>
 	" swap ; and :
