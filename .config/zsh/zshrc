@@ -1,113 +1,108 @@
-# Luke's config for the Zoomer Shell
+# Exports:
+    GPG_TTY=$(tty)
+    export GPG_TTY
 
-# Load version control information:
-autoload -Uz vcs_info
-precmd() { vcs_info }
+# Version control prompt information:
+    # Load version control information:
+    autoload -Uz vcs_info
+    precmd() { vcs_info }
+    # Format the vcs_info_msg_0_ variable:
+    zstyle ':vcs_info:git:*' formats '(%b)'
 
-GPG_TTY=$(tty)
-export GPG_TTY
+    # Enable colors:
+    autoload -U colors && colors
 
-# Format the vcs_info_msg_0_ variable:
-zstyle ':vcs_info:git:*' formats '(%b)'
- 
-# Enable colors:
-autoload -U colors && colors
+    # Set prompt (with git branch name):
+    setopt PROMPT_SUBST
+    PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[green]%}${vcs_info_msg_0_} %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b '
 
-# Get rid off strange percent sign if you start typing fast after zsh start:
-# unsetopt PROMPT_SP
-# setopt PROMPT_CR
-# setopt PROMPT_SP
-# export PROMPT_EOL_MARK=""
+# Custom options:
+    # Automatically cd into typed directory.
+    setopt autocd
+    # Disable ctrl-s to freeze terminal.
+    stty stop undef
+    setopt interactive_comments
 
-# Set prompt (with git branch name):
-setopt PROMPT_SUBST
-PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[green]%}${vcs_info_msg_0_} %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b '
+    # History in cache directory:
+    HISTSIZE=10000000
+    SAVEHIST=10000000
+    HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/zsh/history"
 
-# Automatically cd into typed directory.
-setopt autocd
-# Disable ctrl-s to freeze terminal.
-stty stop undef
-setopt interactive_comments
+    # Load aliases if existent:
+    [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] &&
+        source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
 
-# History in cache directory:
-HISTSIZE=10000000
-SAVEHIST=10000000
-HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/zsh/history"
+    # Basic auto/tab complete:
+    autoload -U compinit
+    zstyle ':completion:*' menu select
+    zmodload zsh/complist
+    compinit
+    # include hidden files
+    _comp_options+=(globdots)
 
-# Load aliases if existent:
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" ] &&
-	source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc"
+    # Vim mode:
+    bindkey -v
+    export KEYTIMEOUT=1
+    
+    # Change cursor shape for different vi modes.
+    # 0 - block, 4 - floor, 5 - beam
+    NORMAL_CURSOR='\e[0 q'
+    INSERT_CURSOR='\e[4 q'
+    function zle-keymap-select () {
+        case $KEYMAP in
+            vicmd) echo -ne $NORMAL_CURSOR;;
+            viins|main) echo -ne $INSERT_CURSOR;;
+        esac
+    }
+    zle -N zle-keymap-select
+    zle-line-init() {
+        zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+        echo -ne $INSERT_CURSOR
+    }
+    zle -N zle-line-init
+    echo -ne $INSERT_CURSOR
+    preexec() { echo -ne $INSERT_CURSOR ;} # Use floor shape cursor for each new prompt.
 
-# Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-# include hidden files
-_comp_options+=(globdots)
+# Custom bindings:
+    # Use vim keys in tab complete menu:
+    bindkey -M menuselect 'h' vi-backward-char
+    bindkey -M menuselect 'k' vi-up-line-or-history
+    bindkey -M menuselect 'l' vi-forward-char
+    bindkey -M menuselect 'j' vi-down-line-or-history
 
-# Vim mode:
-bindkey -v
-export KEYTIMEOUT=1
+    # Use reverse search when searching in vim mode:
+    bindkey -M vicmd '/' history-incremental-search-backward
 
-# Use vim keys in tab complete menu:
-bindkey -M menuselect 'h' vi-backward-char
-bindkey -M menuselect 'k' vi-up-line-or-history
-bindkey -M menuselect 'l' vi-forward-char
-bindkey -M menuselect 'j' vi-down-line-or-history
+    # Use lf to switch directories and bind it to Ctrl-O:
+    lfcd () {
+        tmp="$(mktemp)"
+        lf -last-dir-path="$tmp" "$@"
+        if [ -f "$tmp" ]; then
+            dir="$(cat "$tmp")"
+            rm -f "$tmp" >/dev/null
+            [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+        fi
+    }
+    bindkey -s '^o' 'lfcd\n'
+    bindkey -s '^b' 'bc -lq\n'
+    bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
+    bindkey '^[[P' delete-char
 
-# Use reverse search when searching in vim mode:
-bindkey -M vicmd '/' history-incremental-search-backward
+    # Edit line in vim with Ctrl-I:
+    autoload edit-command-line; zle -N edit-command-line
+    bindkey '^e' edit-command-line
 
-# Change cursor shape for different vi modes.
-function zle-keymap-select () {
-    case $KEYMAP in
-        vicmd) echo -ne '\e[1 q';;      # block
-        viins|main) echo -ne '\e[3 q';; # floor
-        # viins|main) echo -ne '\e[5 q';; # beam
-    esac
-}
-zle -N zle-keymap-select
-zle-line-init() {
-    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    echo -ne "\e[3 q"
-    # echo -ne "\e[5 q"
-}
-zle -N zle-line-init
-echo -ne '\e[3 q' # Use beam shape cursor on startup.
-# echo -ne '\e[5 q' # Use beam shape cursor on startup.
-preexec() { echo -ne '\e[3 q' ;} # Use beam shape cursor for each new prompt.
-# preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
-# Use lf to switch directories and bind it to Ctrl-O:
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp" >/dev/null
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
-}
-
-bindkey -s '^o' 'lfcd\n'
-bindkey -s '^b' 'bc -lq\n'
-bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
-bindkey '^[[P' delete-char
-
-# Edit line in vim with Ctrl-I:
-autoload edit-command-line; zle -N edit-command-line
-bindkey '^e' edit-command-line
-
-# Load fast goind back to updir:
-source /usr/share/zsh/plugins/zsh-bd/bd.zsh 2>/dev/null
-autoload -Uz bd
-
-# Load autosuggestions:
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh 2>/dev/null
-
-# Load substring search insted of only prefix search:
-source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-# Load syntax highlighting; should be last:
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
+# Loading plugins:
+    load_plugin() {
+        _load_plugin "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/plugins" "$1" ||
+        _load_plugin "/usr/local/share" "$1" ||
+        echo "$1 could not be loaded!" >&2
+    }
+    _load_plugin() {
+        [ -f "$1/$2/$2.plugin.zsh" ] && source "$1/$2/$2.plugin.zsh"
+    }
+    
+    load_plugin "bd" && autoload -Uz bd # Fast going back to updir
+    load_plugin "zsh-autosuggestions" # Autosuggestions
+    load_plugin "zsh-history-substring-search" # Substring search insted of only prefix search
+    load_plugin "fast-syntax-highlighting" # Syntax highlighting (should be last)
