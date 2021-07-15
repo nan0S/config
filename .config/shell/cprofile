@@ -7,3 +7,4 @@
 	export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
     export SCRIPTS="$HOME/.local/bin/scripts"
     export SUCK="$HOME/.local/bin/suckless"
+    export BACHELOR="$HOME/studies/bachelor"

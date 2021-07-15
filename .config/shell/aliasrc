@@ -31,6 +31,7 @@
 	alias bashrc='$EDITOR ~/.config/bash/bashrc && [ "$SHELL" = /bin/bash ] && echo bash && source ~/.config/bash/bashrc'
 	alias zshrc='$EDITOR ~/.config/zsh/zshrc && [ "$SHELL" = /bin/zsh ] && echo zsh && source ~/.config/zsh/zshrc'
 	alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
+    alias cprofile='$EDITOR ~/.config/shell/cprofile && source ~/.config/shell/cprofile'
 	alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
 	alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
 	alias xinitrc='$EDITOR ~/.config/x11/xinitrc'
