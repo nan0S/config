@@ -47,6 +47,7 @@
     alias gc='git commit'
     alias gp='git push'
     alias gd='git diff'
+    alias gaa='git add . && git commit'
 
 # read specific aliases if existent
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&

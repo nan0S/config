@@ -20,6 +20,8 @@
 	export WALLPAPER="$(xdg-user-dir PICTURES)/wallpaper.jpg"
 	export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
 	export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
+    export SCRIPTS="$HOME/.local/bin/scripts"
+    export SUCK="$HOME/.local/bin/suckless"
 
 # ~/ Clean-up:
 	export XDG_CONFIG_HOME="$HOME/.config"
