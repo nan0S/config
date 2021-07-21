@@ -2,7 +2,7 @@
 
 # Custom directories:
 	export STUD="$HOME/desktop/programs/studies"
-	export WALLPAPER="$(xdg-user-dir PICTURES)/wallpaper.jpg"
+	export WALLPAPER="$(xdg-user-dir PICTURES)/wallpaper"
 	export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
 	export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
     export SCRIPTS="$HOME/.local/bin/scripts"

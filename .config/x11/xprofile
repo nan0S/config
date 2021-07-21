@@ -3,7 +3,7 @@
 setkeys & 				# keyboard stuff
 touchpad-toggle & 		# automatically turn off touchpad at start
 pageupdown-disable & 	# disable PageUp, PageDown keys because they are annoying
-setbg -m & 				# set background
+setbg & 				# set background
 slstatus & 				# statusbar
 dunst & 				# dunst for notifications
 mpd & 					# music player daemon

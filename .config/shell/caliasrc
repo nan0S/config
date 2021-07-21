@@ -3,55 +3,58 @@
 # specific-regarded aliases
 
 # commands:
-	# custom script in which I want to change directory in outer shell (so have to source it)
-	alias con=". con"
+    # custom script in which I want to change directory in outer shell (so have to source it)
+    alias con=". con"
 
 # shortcuts:
-	# custom
-	alias suck='cd ~/.local/bin/suckless'
-	alias job='cd "$(xdg-user-dir DOCUMENTS)/job"'
-	alias codeforces='cd ~/desktop/programs/codeforces'
-	alias atcoder='cd ~/desktop/programs/atcoder'
-	alias tutorials='cd ~/desktop/programs/tutorials'
-	alias train='cd ~/desktop/programs/contests/misc'
-	alias stud='cd $STUD'
-	alias cppsrc='cd /usr/include/c++/10.2.0'
-    alias current='cd ~/desktop/programs/contests/misc/2020-2021_ICPC_NERC_Northern_Eurasia_Onsite'
+    # custom
+    alias suck='cd ~/.local/bin/suckless'
+    alias job='cd "$(xdg-user-dir DOCUMENTS)/job"'
+    alias codeforces='cd ~/desktop/programs/codeforces'
+    alias atcoder='cd ~/desktop/programs/atcoder'
+    alias tutorials='cd ~/desktop/programs/tutorials'
+    alias train='cd ~/desktop/programs/contests/misc'
+    alias stud='cd $STUD'
     alias repos='cd ~/repos'
 
 # studies:
-	# II semester
-	alias aisd='cd $STUD/aisd'
-	alias mp='cd $STUD/mp'
+    # II semester
+    alias aisd='cd $STUD/aisd'
+    alias mp='cd $STUD/mp'
 
-	# III semester
-	alias analn='cd $STUD/analn'
-	alias mia='cd $STUD/mia'
-	alias pgk='cd $STUD/pgk'
-	alias weppo='cd $STUD/weppo'
+    # III semester
+    alias analn='cd $STUD/analn'
+    alias mia='cd $STUD/mia'
+    alias pgk='cd $STUD/pgk'
+    alias weppo='cd $STUD/weppo'
 
-	# IV semester
-	alias ask='cd $STUD/ask'
-	alias krypto='cd $STUD/krypto'
-	alias linux='cd $STUD/linux'
-	alias ppb='cd $STUD/ppb'
-	alias si='cd $STUD/si'
-	alias sieci='cd $STUD/sieci'
+    # IV semester
+    alias ask='cd $STUD/ask'
+    alias krypto='cd $STUD/krypto'
+    alias linux='cd $STUD/linux'
+    alias ppb='cd $STUD/ppb'
+    alias si='cd $STUD/si'
+    alias sieci='cd $STUD/sieci'
 
-	# V semester
-	alias ml='cd $STUD/ml'
-	alias so='cd $STUD/so'
-	alias ai='cd $STUD/ai4g'
-	alias ae='cd $STUD/ae'
-	alias c++='cd $STUD/c++stl/tests'
-	alias cpptricks='cd $STUD/cpptricks'
+    # V semester
+    alias ml='cd $STUD/ml'
+    alias so='cd $STUD/so'
+    alias ai='cd $STUD/ai4g'
+    alias ae='cd $STUD/ae'
+    alias c++='cd $STUD/c++stl/tests'
+    alias cpptricks='cd $STUD/cpptricks'
 
-	# VI semester
-	alias dl='cd $STUD/dl'
-	alias poo='cd $STUD/poo'
-	alias bazy='cd $STUD/bazy'
-	alias jfizo='cd $STUD/jfizo'
-	alias poo='cd $STUD/poo'
-	alias bazy='cd $STUD/bazy'
-	alias bachelor='cd $STUD/bachelor'
+    # VI semester
+    alias dl='cd $STUD/dl'
+    alias poo='cd $STUD/poo'
+    alias bazy='cd $STUD/bazy'
+    alias jfizo='cd $STUD/jfizo'
+    alias poo='cd $STUD/poo'
+    alias bazy='cd $STUD/bazy'
+    alias bachelor='cd $STUD/bachelor'
     alias rgbt='cd $STUD/dl/project/rgbt'
+
+# temporary:
+    alias cppsrc='cd /usr/include/c++/10.2.0'
+    alias current='cd ~/desktop/programs/contests/misc/2020-2021_ICPC_NERC_Northern_Eurasia_Onsite'
+    alias boosts='pushd /usr/include/boost/container && $EDITOR && popd'
