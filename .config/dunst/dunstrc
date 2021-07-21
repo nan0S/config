@@ -24,8 +24,8 @@
     sort = yes
 
     idle_threshold = 120
-	# font = Monospace 11
-	font = Source Code Pro 10
+    # font = Monospace 11
+    font = Source Code Pro 10
     line_height = 0
     markup = full
 

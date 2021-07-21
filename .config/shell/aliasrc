@@ -3,45 +3,45 @@
 # general aliases
 
 # commands:
-	alias sudo='sudo '
-	alias pacman='pacman --color=auto'
-	alias egrep='egrep --color=auto'
-	alias yay='yay --color=auto'
-	alias ls='ls -hvN --color=auto --group-directories-first'
-	alias grep="grep --color=auto"
-	alias igrep="grep -i"
-	alias ll='ls --color=always -lAFbhv | less -XER'
-	# custom script in which I want to change directory in outer shell (so have to source it)
+    alias sudo='sudo '
+    alias pacman='pacman --color=auto'
+    alias egrep='egrep --color=auto'
+    alias yay='yay --color=auto'
+    alias ls='ls -hvN --color=auto --group-directories-first'
+    alias grep="grep --color=auto"
+    alias igrep="grep -i"
+    alias ll='ls --color=always -lAFbhv | less -XER'
+    # custom script in which I want to change directory in outer shell (so have to source it)
     alias ofind=". ofind"
     # misc
-	alias open='xdg-open'
-	alias vim="nvim -c 'set scroll=10'"
-	alias nvim="nvim -c 'set scroll=10'"
-	alias jupyter="run 'jupyter notebook --browser=$BROWSER'"
-	alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
-	alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
-	alias mutt='neomutt'
+    alias open='xdg-open'
+    alias vim="nvim -c 'set scroll=10'"
+    alias nvim="nvim -c 'set scroll=10'"
+    alias jupyter="run 'jupyter notebook --browser=$BROWSER'"
+    alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
+    alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
+    alias mutt='neomutt'
     alias pip='pip-pss'
     alias pip3='pip-pss'
 
 # shortcuts:
-	# custom
-	alias scripts='cd ~/.local/bin/scripts'
-	# configuration files
-	alias bashrc='$EDITOR ~/.config/bash/bashrc && [ "$SHELL" = /bin/bash ] && echo bash && source ~/.config/bash/bashrc'
-	alias zshrc='$EDITOR ~/.config/zsh/zshrc && [ "$SHELL" = /bin/zsh ] && echo zsh && source ~/.config/zsh/zshrc'
-	alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
+    # custom
+    alias scripts='cd ~/.local/bin/scripts'
+    # configuration files
+    alias bashrc='$EDITOR ~/.config/bash/bashrc && [ "$SHELL" = /bin/bash ] && echo bash && source ~/.config/bash/bashrc'
+    alias zshrc='$EDITOR ~/.config/zsh/zshrc && [ "$SHELL" = /bin/zsh ] && echo zsh && source ~/.config/zsh/zshrc'
+    alias profile='$EDITOR ~/.config/shell/profile && source ~/.config/shell/profile'
     alias cprofile='$EDITOR ~/.config/shell/cprofile && source ~/.config/shell/cprofile'
-	alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
-	alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
-	alias xinitrc='$EDITOR ~/.config/x11/xinitrc'
-	alias xprofile='$EDITOR ~/.config/x11/xprofile'
+    alias aliasrc='$EDITOR ~/.config/shell/aliasrc && source ~/.config/shell/aliasrc'
+    alias caliasrc='$EDITOR ~/.config/shell/caliasrc && source ~/.config/shell/caliasrc'
+    alias xinitrc='$EDITOR ~/.config/x11/xinitrc'
+    alias xprofile='$EDITOR ~/.config/x11/xprofile'
     alias vimrc='$EDITOR ~/.config/nvim/init.vim'
-	# going up dir
-	alias ..='cd ../'
-	alias ...='cd ../..'
-	alias ....='cd ../../..'
-	alias .....='cd ../../../..'
+    # going up dir
+    alias ..='cd ../'
+    alias ...='cd ../..'
+    alias ....='cd ../../..'
+    alias .....='cd ../../../..'
     # git
     alias ga='git add . && git commit && git push'
     alias gs='git status'
@@ -52,4 +52,4 @@
 
 # read specific aliases if existent
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc" ] &&
-	. "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc"
+    . "${XDG_CONFIG_HOME:-$HOME/.config}/shell/caliasrc"
