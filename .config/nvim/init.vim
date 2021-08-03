@@ -186,6 +186,8 @@ call plug#end()
     nnoremap <C-C> :set list!<CR>
     " source vimrc
     nnoremap <leader>rc :source $MYVIMRC<CR>
+    " format with column --table
+    vnoremap <leader>f :!column -t<CR>
 
 " NERDTree:
     " Check if NERDTree is open or active
@@ -289,8 +291,8 @@ call plug#end()
     nmap <leader>rn <Plug>(coc-rename)
 
     " Remap for format selected region
-    xmap <leader>f  <Plug>(coc-format-selected)
-    nmap <leader>f  <Plug>(coc-format-selected)
+    " xmap <leader>f  <Plug>(coc-format-selected)
+    " nmap <leader>f  <Plug>(coc-format-selected)
 
     augroup mygroup
       autocmd!
