@@ -16,6 +16,7 @@
     alias train='cd ~/desktop/programs/contests/misc'
     alias stud='cd $STUD'
     alias repos='cd ~/repos'
+    alias code='code --disable-web-security'
 
 # studies:
     # II semester
