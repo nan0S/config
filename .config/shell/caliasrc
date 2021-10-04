@@ -57,6 +57,4 @@
     alias rgbt='cd $STUD/dl/project/rgbt'
 
 # temporary:
-    alias cppsrc='cd /usr/include/c++/11.1.0'
-    alias current='cd ~/desktop/programs/contests/misc/2020-2021_ICPC_NERC_Northern_Eurasia_Onsite'
-    alias boosts='pushd /usr/include/boost/container && $EDITOR && popd'
+    alias current='cd ~/desktop/programs/contests/cerc/2020/practice'

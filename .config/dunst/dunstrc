@@ -24,7 +24,6 @@
     sort = yes
 
     idle_threshold = 120
-    # font = Monospace 11
     font = Source Code Pro 10
     line_height = 0
     markup = full
@@ -51,7 +50,7 @@
     show_indicators = yes
     icon_position = left
     max_icon_size = 40
-    #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
+    #icon_path = /usr/share/icons/gnome/17x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
     sticky_history = yes
     history_length = 20
     dmenu = /usr/bin/dmenu -p dunst:
@@ -64,6 +63,7 @@
     class = Dunst
     startup_notification = false
     force_xinerama = false
+
 [experimental]
     per_monitor_dpi = false
 
@@ -80,11 +80,11 @@
     foreground = "#928374"
     timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
-    #icon = /path/to/icon
+    # icon = /path/to/icon
 
 [urgency_normal]
-    background = "#458588"
-    foreground = "#ebdbb2"
+    background = "#282828"
+    foreground = "#928374"
     timeout = 5
 
 [urgency_critical]
@@ -111,6 +111,21 @@
 # to "".
 # NOTE: It might be helpful to run dunst -print in a terminal in order
 # to find fitting options for rules.
+#
+
+[mail_summary]
+    appname = "mutt-wizard"
+    category = "SUMMARY"
+    new_icon = ~/pictures/icons/mail_account.png
+
+[mail_message]
+    appname = "mutt-wizard"
+    category = "MESSAGE"
+    new_icon = ~/pictures/icons/mail.png
+
+[screenshot]
+    body = "*Picture has been saved to*"
+    new_icon = ~/pictures/icons/screenshot.png
 
 #[espeak]
 #    summary = "*"
