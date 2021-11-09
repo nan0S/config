@@ -20,13 +20,16 @@
     alias code='code --disable-web-security'
 
 # studies:
+    # I semester
+    alias mia='cd $STUD/mia/2018'
+
     # II semester
     alias aisd='cd $STUD/aisd'
     alias mp='cd $STUD/mp'
 
     # III semester
     alias analn='cd $STUD/analn'
-    alias mia='cd $STUD/mia'
+    alias mia='cd $STUD/mia/2019'
     alias pgk='cd $STUD/pgk'
     alias weppo='cd $STUD/weppo'
 
@@ -54,7 +57,11 @@
     alias poo='cd $STUD/poo'
     alias bazy='cd $STUD/bazy'
     alias bachelor='cd $STUD/bachelor'
-    alias rgbt='cd $STUD/dl/project/rgbt'
+
+    # VII semester
+    alias jp='cd $STUD/jp'
+    alias unity='cd $STUD/unity'
+    alias mia='cd $STUD/mia/2021'
 
 # temporary:
     alias current='cd ~/desktop/programs/contests/cerc/2020/practice'
