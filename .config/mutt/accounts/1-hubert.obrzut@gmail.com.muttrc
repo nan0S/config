@@ -1,9 +1,9 @@
 # vim: filetype=neomuttrc
 # muttrc file for account hubert.obrzut@gmail.com
-set realname = "Hubert Obrzut"
+set realname = "hubert.obrzut"
 set from = "hubert.obrzut@gmail.com"
 set sendmail = "msmtp -a hubert.obrzut@gmail.com"
-alias me Hubert Obrzut <hubert.obrzut@gmail.com>
+alias me hubert.obrzut <hubert.obrzut@gmail.com>
 set folder = "/home/hubert/.local/share/mail/hubert.obrzut@gmail.com"
 set header_cache = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/headers
 set message_cachedir = /home/hubert/.cache/mutt-wizard/hubert.obrzut@gmail.com/bodies
@@ -21,23 +21,34 @@ unset signature
 unmacro index o
 macro index o "<shell-escape>mw -y hubert.obrzut@gmail.com<enter>" "run mbsync to sync hubert.obrzut@gmail.com"
 
-mailboxes "=INBOX" "=[Gmail]/Sent Mail" "=[Gmail]/Starred" "=[Gmail]/Drafts" "=[Gmail]/Spam" "=[Gmail]/Trash"
+mailboxes "=INBOX" "=[Gmail]/Sent Mail" "=[Gmail]/Drafts" "=[Gmail]/Spam" "=Jobs" "=[Gmail]/Trash" "=skoczek133@gmail.com" "=skoczek133@gmail.com/Sent Mail" "=nikiux133@gmail.com"
 macro index,pager gi "<change-folder>=INBOX<enter>" "go to inbox"
 macro index,pager Mi ";<save-message>=INBOX<enter>" "move mail to inbox"
 macro index,pager Ci ";<copy-message>=INBOX<enter>" "copy mail to inbox"
 set spoolfile = "+INBOX"
-set postponed = "+[Gmail]/Drafts"
-macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
-macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
-macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
 set record = "+[Gmail]/Sent"
 macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "go to sent"
 macro index,pager Ms ";<save-message>=[Gmail]/Sent Mail<enter>" "move mail to sent"
 macro index,pager Cs ";<copy-message>=[Gmail]/Sent Mail<enter>" "copy mail to sent"
+set postponed = "+[Gmail]/Drafts"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "go to drafts"
+macro index,pager Md ";<save-message>=[Gmail]/Drafts<enter>" "move mail to drafts"
+macro index,pager Cd ";<copy-message>=[Gmail]/Drafts<enter>" "copy mail to drafts"
 macro index,pager gS "<change-folder>=[Gmail]/Spam<enter>" "go to spam"
 macro index,pager MS ";<save-message>=[Gmail]/Spam<enter>" "move mail to spam"
 macro index,pager CS ";<copy-message>=[Gmail]/Spam<enter>" "copy mail to spam"
+macro index,pager gj "<change-folder>=Jobs<enter>" "go to jobs"
+macro index,pager Mj ";<save-message>=Jobs<enter>" "move mail to jobs"
+macro index,pager Cj ";<copy-message>=Jobs<enter>" "copy mail to jobs"
 macro index,pager gt "<change-folder>=[Gmail]/Trash<enter>" "go to trash"
 macro index,pager Mt ";<save-message>=[Gmail]/Trash<enter>" "move mail to trash"
 macro index,pager Ct ";<copy-message>=[Gmail]/Trash<enter>" "copy mail to trash"
 set trash = "+[Gmail]/Trash"
+set record = "+skoczek133@gmail.com"
+macro index,pager gx "<change-folder>=skoczek133@gmail.com<enter>" "go to sent"
+macro index,pager Mx ";<save-message>=skoczek133@gmail.com<enter>" "move mail to sent"
+macro index,pager Cx ";<copy-message>=skoczek133@gmail.com<enter>" "copy mail to sent"
+set record = "+nikiux133@gmail.com"
+macro index,pager gn "<change-folder>=nikiux133@gmail.com/Sent Mail<enter>" "go to sent"
+macro index,pager Mn ";<save-message>=nikiux133@gmail.com/Sent Mail<enter>" "move mail to sent"
+macro index,pager Cn ";<copy-message>=nikiux133@gmail.com/Sent Mail<enter>" "copy mail to sent"

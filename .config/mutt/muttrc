@@ -1,9 +1,5 @@
 # vim: filetype=neomuttrc
 source /usr/share/mutt-wizard/mutt-wizard.muttrc
-source /home/hubert/.config/mutt/accounts/1-skoczek133@gmail.com.muttrc
-
-macro index,pager i1 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/1-skoczek133@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to skoczek133@gmail.com"
-macro index,pager i2 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/2-hubert.obrzut@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to hubert.obrzut@gmail.com"
-macro index,pager i3 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/3-nikiux133@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to nikiux133@gmail.com"
-macro index,pager i4 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/4-nikiux1333@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to nikiux1333@gmail.com"
-macro index,pager i5 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/5-309306@uwr.edu.pl.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to 309306@uwr.edu.pl"
+source /home/hubert/.config/mutt/accounts/1-hubert.obrzut@gmail.com.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/1-hubert.obrzut@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to hubert.obrzut@gmail.com"
+macro index,pager i2 '<sync-mailbox><enter-command>source /home/hubert/.config/mutt/accounts/2-309306@uwr.edu.pl.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to 309306@uwr.edu.pl"
