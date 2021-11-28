@@ -59,9 +59,9 @@
     alias bachelor='cd $STUD/bachelor'
 
     # VII semester
-    alias jp='cd $STUD/jp'
     alias unity='cd $STUD/unity'
     alias mia='cd $STUD/mia/2021'
+    alias cuda='cd $STUD/cuda'
 
 # temporary:
     alias current='cd ~/desktop/programs/contests/cerc/2020/practice'
