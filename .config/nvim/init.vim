@@ -359,7 +359,7 @@ call plug#end()
     let g:ctrlp_user_command = 'ag %s -l --nocolor --path-to-ignore ~/.config/ag/ignore -g ""'
     " set current directory to look in to be nearest ancestor with .git folder ('r' option)
     " if jumped to another file, outside of our working tree, search there ('a' option)
-    let g:ctrlp_working_path_mode = 'ra'
+    let g:ctrlp_working_path_mode = 'a'
     " scrollable CtrlP window
     let g:ctrlp_match_window = 'results:100'
     " open files buffer

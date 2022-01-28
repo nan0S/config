@@ -18,6 +18,7 @@
     alias stud='cd $STUD'
     alias repos='cd ~/repos'
     alias code='code --disable-web-security'
+    alias cudasamples='cd $CUDA_HOME/samples'
 
 # studies:
     # I semester
