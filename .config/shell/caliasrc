@@ -5,7 +5,7 @@
 # commands:
     # custom script in which I want to change directory in outer shell (so have to source it)
     alias con=". con"
-    alias setbach='. setbach'
+    alias do-cpp-test=". do-cpp-test"
 
 # shortcuts:
     # custom

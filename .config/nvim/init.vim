@@ -44,9 +44,9 @@
     " add ignore case when searching with /
     set ignorecase
     " tab width when pressing <Tab>
-    set tabstop=4
+    set tabstop=3
     " tab visual when breaking line in loop
-    set shiftwidth=4
+    set shiftwidth=3
     " do not wrap lines when screen is to narrow
     set nowrap
     " number of lines to move when using Ctrl-D, Ctrl-U (0 means half page)
