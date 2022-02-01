@@ -47,6 +47,9 @@
     export ABOOKADDRBOOK="${XDG_CONFIG_HOME:-$HOME/.config}/abook/addressbook"
     export SSB_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/zoom"
     export CUDA_HOME="/opt/cuda"
+    export CUDA_CACHE_PART="${XDG_CACHE_HOME:-$HOME/.cache}/nv"
+    export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/npm/npmrc"
+    export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/cprofile" ] &&
     source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/cprofile"
