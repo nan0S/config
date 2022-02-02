@@ -66,6 +66,8 @@
     set shortmess+=c
     " always show signcolumns
     set signcolumn=yes
+    " 80 character marker
+    set colorcolumn=80
     " remap mapleader key for convenience
     let mapleader = " "
     " automatically deletes all trailing whitespace and newlines at end of file on save
