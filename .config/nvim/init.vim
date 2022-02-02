@@ -68,6 +68,8 @@
     set signcolumn=yes
     " 80 character marker
     set colorcolumn=80
+    " set color of the color column
+    autocmd VimEnter * highlight ColorColumn ctermbg=0
     " remap mapleader key for convenience
     let mapleader = " "
     " automatically deletes all trailing whitespace and newlines at end of file on save
