@@ -63,6 +63,7 @@
     alias unity='cd $STUD/unity'
     alias mia='cd $STUD/mia/2021'
     alias cuda='cd $STUD/cuda'
+    alias teoarg='cd $STUD/teoarg'
 
 # temporary:
     alias current='cd ~/desktop/programs/contests/cerc/2020/practice'
