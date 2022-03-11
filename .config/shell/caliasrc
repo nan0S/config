@@ -69,6 +69,7 @@
     # VIII semester
     alias tpjp='cd $STUD/tpjp'
     alias pcg='cd $STUD/pcg'
+    alias agt='cd $STUD/agt'
 
 # temporary:
     alias current='cd ~/desktop/programs/contests/cerc/2020/practice'
