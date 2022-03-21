@@ -83,9 +83,9 @@
             [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
         fi
     }
-    bindkey -s '^o' 'lfcd\n'
-    bindkey -s '^b' 'bc -lq\n'
-    bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
+    bindkey -s '^o' '^Ulfcd\n'
+    bindkey -s '^b' '^Ubc -lq\n'
+    bindkey -s '^f' '^Ucd "$(dirname "$(fzf)")"\n'
     bindkey '^[[P' delete-char
 
     # Edit line in vim with Ctrl-I:
