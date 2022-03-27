@@ -15,8 +15,8 @@
     alias ofind=". ofind"
     # misc
     alias open='xdg-open'
-    alias vim="nvim -c 'set scroll=10'"
-    alias nvim="nvim -c 'set scroll=10'"
+    alias vim="nvim -c 'set scroll=20'"
+    alias nvim="nvim -c 'set scroll=20'"
     alias jupyter="run 'jupyter notebook --browser=$BROWSER'"
     alias mbsync='mbsync -c "${MBSYNCRC:-$HOME/.mbsyncrc}"'
     alias abook='abook --config "${ABOOKRC:-$HOME/.abook/abookrc}" --datafile "${ABOOKADDRBOOK:-$HOME/.abook/addressbook}"'
