@@ -9,7 +9,7 @@
 
 # shortcuts:
     # custom
-    alias suck='cd ~/.local/bin/suckless'
+    alias suck="cd ~/.local/bin/suckless/$(get-vendor)"
     alias job='cd "$(xdg-user-dir DOCUMENTS)/job"'
     alias codeforces='cd ~/desktop/programs/codeforces'
     alias atcoder='cd ~/desktop/programs/atcoder'
