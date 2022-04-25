@@ -11,7 +11,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -19,5 +19,5 @@
 	"scroll_past_end": true,
 	"theme": "gruvbox.sublime-theme",
 	"wide_caret": true,
-	"word_wrap": true,
+	"word_wrap": true
 }
