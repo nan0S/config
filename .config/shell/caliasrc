@@ -70,7 +70,8 @@
     alias tpjp='cd $STUD/tpjp'
     alias pcg='cd $STUD/pcg'
     alias agt='cd $STUD/agt'
-    alias ett='cd $HOME/repos/et-lang/src/v3'
+    alias it='cd $HOME/repos/et-lang/src/v3'
+    alias sched='cd $STUD/sched'
 
 # temporary:
     alias current='cd ~/desktop/programs/contests/cerc/2020/practice'

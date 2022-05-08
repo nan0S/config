@@ -194,6 +194,8 @@ call plug#end()
     nnoremap <leader>rc :source $MYVIMRC<CR>
     " format with column --table
     vnoremap <leader>f :!column -t<CR>
+    " compile and view LaTeX file
+    nnoremap <silent> <leader>pdf :w! \| !texmake "%" <CR>
 
 " NERDTree:
     " Check if NERDTree is open or active
@@ -418,7 +420,7 @@ call plug#end()
     " let g:gh_color = "soft"
 
 " Other:
-    let g:python3_host_prog='/bin/python'
+    " let g:python3_host_prog='/bin/python'
     " mapping for vim-move Plugin to move up and down
     " remember that I changed vim-move plugin .vim to not map <C-h>, <C-l>
     let g:move_key_modifier = 'C'
