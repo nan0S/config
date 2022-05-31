@@ -4,6 +4,7 @@ image/gif=image.desktop
 text/x-tex=latex.desktop
 image/jpeg=image.desktop
 image/png=image.desktop
+image/x-exr=exr.desktop
 inode/directory=directory.desktop
 text/plain=text.desktop
 video/mp4=video.desktop
