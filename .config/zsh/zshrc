@@ -106,3 +106,7 @@
     load_plugin "zsh-autosuggestions" # Autosuggestions
     load_plugin "zsh-history-substring-search" # Substring search insted of only prefix search
     load_plugin "fast-syntax-highlighting" # Syntax highlighting (should be last)
+
+    # opam configuration
+   [[ ! -r /home/hubert/.opam/opam-init/init.zsh ]] || source /home/hubert/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
