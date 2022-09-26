@@ -1,8 +1,21 @@
+if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim"'))
+   echo "Downloading junegunn/vim-plug to manage plugins..."
+   silent !mkdir -p ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/
+   silent !curl "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" > ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim
+   autocmd VimEnter * PlugInstall
+endif
+
+call plug#begin('~/.config/nvim/plugged')
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
+call plug#end()
+
 set bg=light
 set clipboard+=unnamedplus " always interact with system clipboard
 set colorcolumn=100
 set expandtab
-set guicursor=i:block " bring old Vim curosr back
+set guicursor=i:block " bring old Vim cursor back
+set laststatus=0
 set laststatus=0
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set nohlsearch
