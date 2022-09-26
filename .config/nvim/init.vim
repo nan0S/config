@@ -6,11 +6,13 @@ if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autolo
 endif
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-commentary'
+Plug 'preservim/nerdcommenter'
+Plug 'kien/ctrlp.vim'
+Plug 'dyng/ctrlsf.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
-set bg=light
+set bg=dark
 set clipboard+=unnamedplus " always interact with system clipboard
 set colorcolumn=100
 set expandtab
@@ -19,6 +21,7 @@ set laststatus=0
 set laststatus=0
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set nohlsearch
+set noruler
 set nowrap
 set number
 set relativenumber
@@ -26,16 +29,19 @@ set ruler
 set shiftwidth=0 " use [tabstop]
 set smartcase
 set smartindent
+set splitbelow splitright
 set tabstop=3
 set title
 
 filetype on
+filetype plugin on
 syntax on
 highlight ColorColumn ctermbg=0 " set color of the [colorcolumn]
 let mapleader=" "
 " delete trailing whitespaces at file save
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritePre * %s/\n\+\%$//e
+colorscheme gruvbox
 
 nnoremap <silent> <leader>/ :wincmd v<CR>
 nnoremap <silent> <leader>- :wincmd s<CR>
@@ -54,3 +60,19 @@ nnoremap <silent> <leader>cp :!clipcp %<CR>
 nnoremap <silent> <leader>pdf :w! \| !texmake "%" <CR>
 nnoremap <leader>fs :w<CR>
 nnoremap <leader>vim :source ~/.config/nvim/init.vim<CR>
+nnoremap <leader>bb :CtrlPBuffer<CR>
+nnoremap <leader>sf :CtrlSF<SPACE>
+vnoremap <leader>wf <Plug>CtrlSFVwordExec
+nnoremap <leader>wf <Plug>CtrlSFCwordPath
+
+" autocomplete parenthesis
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
+
+let g:NERDSpaceDelims = 1
+let g:NERDCommentEmptyLines = 1
+let g:ctrlp_map = '<leader>ff'
