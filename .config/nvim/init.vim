@@ -10,6 +10,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'kien/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'morhetz/gruvbox'
+Plug 'bfrg/vim-cpp-modern'
 call plug#end()
 
 set bg=dark
