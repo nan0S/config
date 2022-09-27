@@ -14,10 +14,14 @@ Plug 'bfrg/vim-cpp-modern'
 call plug#end()
 
 set bg=dark
+set cinoptions=l1 " fix [switch] [case] indenting in C
 set clipboard+=unnamedplus " always interact with system clipboard
-set colorcolumn=100
+set colorcolumn=80
 set expandtab
 set guicursor=i:block " bring old Vim cursor back
+set hidden
+set ignorecase
+set incsearch
 set laststatus=0
 set laststatus=0
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
@@ -27,6 +31,7 @@ set nowrap
 set number
 set relativenumber
 set ruler
+set scrolloff=8
 set shiftwidth=0 " use [tabstop]
 set smartcase
 set smartindent
@@ -37,7 +42,7 @@ set title
 filetype on
 filetype plugin on
 syntax on
-highlight ColorColumn ctermbg=0 " set color of the [colorcolumn]
+autocmd VimEnter * highlight ColorColumn ctermbg=0 " set color of the [colorcolumn]
 let mapleader=" "
 " delete trailing whitespaces at file save
 autocmd BufWritePre * %s/\s\+$//e
@@ -51,6 +56,7 @@ nnoremap <silent> <leader>j :wincmd j<CR>
 nnoremap <silent> <leader>k :wincmd k<CR>
 nnoremap <silent> <leader>l :wincmd l<CR>
 nnoremap <silent> <leader>s :wincmd p<CR>
+nnoremap <silent> <leader>= :wincmd =<CR>
 nnoremap <silent> <C-j> :tabprevious<CR>
 nnoremap <silent> <C-k> :tabnext<CR>
 nnoremap <silent> <leader>q :x<CR>
@@ -65,15 +71,28 @@ nnoremap <leader>bb :CtrlPBuffer<CR>
 nnoremap <leader>sf :CtrlSF<SPACE>
 vnoremap <leader>wf <Plug>CtrlSFVwordExec
 nnoremap <leader>wf <Plug>CtrlSFCwordPath
+vnoremap <silent> J :m '>+1<CR>gv=gv
+vnoremap <silent> K :m '<-2<CR>gv=gv
+nnoremap <silent> < v<
+nnoremap <silent> > v>
+
+nnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
+vnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
+nnoremap <leader>cA :call NERDComment(0,"append")<CR>
+" for whatever reason this slows down Vim
+" inoremap <leader>cc <C-O>:call NERDComment(0,"toggle")<CR>
 
 " autocomplete parenthesis
-ino " ""<left>
-ino ' ''<left>
-ino ( ()<left>
-ino [ []<left>
-ino { {}<left>
-ino {<CR> {<CR>}<ESC>O
+ ino " ""<left>
+ ino ' ''<left>
+ ino ( ()<left>
+ ino [ []<left>
+ ino { {}<left>
+ ino {<CR> {<CR>}<ESC>O
 
-let g:NERDSpaceDelims = 1
-let g:NERDCommentEmptyLines = 1
-let g:ctrlp_map = '<leader>ff'
+ let g:NERDCreateDefaultMappings = 0
+ let g:NERDSpaceDelims = 1
+ let g:NERDCommentEmptyLines = 1
+ let g:ctrlp_map = '<leader>ff'
+ let g:ctrlp_working_path_mode='c'
+ let g:ctrlp_switch_buffer=0
