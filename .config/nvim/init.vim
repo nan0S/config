@@ -11,6 +11,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'bfrg/vim-cpp-modern'
+Plug 'derekwyatt/vim-fswitch'
 call plug#end()
 
 set bg=dark
@@ -75,12 +76,13 @@ vnoremap <silent> J :m '>+1<CR>gv=gv
 vnoremap <silent> K :m '<-2<CR>gv=gv
 nnoremap <silent> < v<
 nnoremap <silent> > v>
-
 nnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
 vnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
-nnoremap <leader>cA :call NERDComment(0,"append")<CR>
+nnoremap <leader>ca :call NERDComment(0,"append")<CR>
 " for whatever reason this slows down Vim
 " inoremap <leader>cc <C-O>:call NERDComment(0,"toggle")<CR>
+nnoremap <leader>ga :FSHere<CR>
+nnoremap <leader>gsa :FSSplitRight<CR>
 
 " autocomplete parenthesis
  ino " ""<left>
