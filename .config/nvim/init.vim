@@ -18,6 +18,7 @@ set bg=dark
 set cinoptions=l1 " fix [switch] [case] indenting in C
 set clipboard+=unnamedplus " always interact with system clipboard
 set colorcolumn=80
+set completeopt=
 set expandtab
 set guicursor=i:block " bring old Vim cursor back
 set hidden
@@ -26,6 +27,7 @@ set incsearch
 set laststatus=0
 set laststatus=0
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set mouse=a " window resizing using mouse
 set nohlsearch
 set noruler
 set nowrap
@@ -39,6 +41,7 @@ set smartindent
 set splitbelow splitright
 set tabstop=3
 set title
+set wildignore+=*.o,*.d,*.a,*.obj,*.png,*.jpg,*.pdf,*.zip
 
 filetype on
 filetype plugin on
@@ -76,25 +79,36 @@ vnoremap <silent> J :m '>+1<CR>gv=gv
 vnoremap <silent> K :m '<-2<CR>gv=gv
 nnoremap <silent> < v<
 nnoremap <silent> > v>
-nnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
-vnoremap <leader>cc :call NERDComment(0,"toggle")<CR>
-nnoremap <leader>ca :call NERDComment(0,"append")<CR>
+nnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
+vnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
+nnoremap <silent> <leader>ca :call NERDComment(0,"append")<CR>
 " for whatever reason this slows down Vim
-" inoremap <leader>cc <C-O>:call NERDComment(0,"toggle")<CR>
-nnoremap <leader>ga :FSHere<CR>
-nnoremap <leader>gsa :FSSplitRight<CR>
+" inoremap <silent> <leader>cc <C-O>:call NERDComment(0,"toggle")<CR>
+nnoremap <silent> <leader>ga :FSHere<CR>
+nnoremap <silent> <leader>gsa :FSSplitRight<CR>
+
+function! CleverTab()
+   if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+      return "\<Tab>"
+   else
+      return "\<C-N>"
+   endif
+endfunction
+
+inoremap <silent> <Tab> <C-R>=CleverTab()<CR>
+inoremap <silent> <S-TAB> <C-p>
 
 " autocomplete parenthesis
- ino " ""<left>
- ino ' ''<left>
- ino ( ()<left>
- ino [ []<left>
- ino { {}<left>
- ino {<CR> {<CR>}<ESC>O
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
 
- let g:NERDCreateDefaultMappings = 0
- let g:NERDSpaceDelims = 1
- let g:NERDCommentEmptyLines = 1
- let g:ctrlp_map = '<leader>ff'
- let g:ctrlp_working_path_mode='c'
- let g:ctrlp_switch_buffer=0
+let g:NERDCreateDefaultMappings = 0
+let g:NERDSpaceDelims = 1
+let g:NERDCommentEmptyLines = 1
+let g:ctrlp_map = '<leader>ff'
+let g:ctrlp_working_path_mode='c'
+let g:ctrlp_switch_buffer=0
