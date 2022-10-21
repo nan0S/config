@@ -81,9 +81,13 @@ nnoremap <silent> < v<
 nnoremap <silent> > v>
 nnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
 vnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
-nnoremap <silent> <leader>ca :call NERDComment(0,"append")<CR>
 " for whatever reason this slows down Vim
 " inoremap <silent> <leader>cc <C-O>:call NERDComment(0,"toggle")<CR>
+nnoremap <silent> <leader>ca :call NERDComment(0,"append")<CR>
+nnoremap <silent> <leader>ci :call NERDComment(0,"invert")<CR>
+vnoremap <silent> <leader>ci :call NERDComment(0,"invert")<CR>
+" for whatever reason this slows down Vim
+" inoremap <silent> <leader>ci <C-O>:call NERDComment(0,"invert")<CR>
 nnoremap <silent> <leader>ga :FSHere<CR>
 nnoremap <silent> <leader>gsa :FSSplitRight<CR>
 

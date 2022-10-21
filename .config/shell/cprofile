@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Custom directories:
-    export STUD="$HOME/desktop/programs/studies"
+    export STUD="$HOME/studies"
     export WALLPAPER="$(xdg-user-dir PICTURES)/wallpaper"
     export CF_DIRECTORY="$HOME/desktop/programs/codeforces" # CodeForces directory
     export ATC_DIRECTORY="$HOME/desktop/programs/atcoder" # AtCoder directory
