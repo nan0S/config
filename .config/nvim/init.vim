@@ -77,8 +77,8 @@ vnoremap <leader>wf <Plug>CtrlSFVwordExec
 nnoremap <leader>wf <Plug>CtrlSFCwordPath
 vnoremap <silent> J :m '>+1<CR>gv=gv
 vnoremap <silent> K :m '<-2<CR>gv=gv
-nnoremap <silent> < v<
-nnoremap <silent> > v>
+nnoremap <silent> < gv<
+nnoremap <silent> > gv>
 nnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
 vnoremap <silent> <leader>cc :call NERDComment(0,"toggle")<CR>
 " for whatever reason this slows down Vim

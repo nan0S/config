@@ -9,7 +9,7 @@
     export BROWSER="brave"
 
 # Custom variables:
-    export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -DLOCAL -O0 -fsanitize=undefined"
+    export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -DMY_LOCAL -O0 -fsanitize=undefined"
     export CFLAGS="-Wall -Wextra -ggdb"
     export HISTSIZE=2000
     # optout from dotnet data collect
@@ -29,7 +29,6 @@
     export GNUPGHOME="${XDG_DATA_HOME:-$HOME/.local/share}/gnupg"
     export IPYTHONDIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
     export JUPYTER_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/jupyter"
-    export _JAVA_OPTIONS="${XDG_CONFIG_HOME:-$HOME/.config}/java"
     export NUGET_PACKAGES="${XDG_CACHE_HOME:-$HOME/.cache}/NuGetPackages"
     export VSCODE_PORTABLE="${XDG_DATA_HOME:-$HOME/.local/share}/vscode"
     export DOTNET_CLI_HOME="${XDG_CACHE_HOME:-$HOME/.cache}/dotnetcli"
