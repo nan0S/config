@@ -17,7 +17,7 @@ call plug#end()
 set bg=dark
 set cinoptions=l1 " fix [switch] [case] indenting in C
 set clipboard+=unnamedplus " always interact with system clipboard
-set colorcolumn=80
+" set colorcolumn=80
 set completeopt=
 set expandtab
 set guicursor=i:block " bring old Vim cursor back

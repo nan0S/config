@@ -77,6 +77,3 @@
     alias kk='cd $STUD/kk'
     alias pw='cd $STUD/pw'
     alias bd2='cd $STUD/bd2'
-
-# temporary:
-    alias current='cd ~/desktop/programs/contests/cerc/2020/practice'
