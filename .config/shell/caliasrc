@@ -77,3 +77,8 @@
     alias kk='cd $STUD/kk'
     alias pw='cd $STUD/pw'
     alias bd2='cd $STUD/bd2'
+
+    # X semester
+    alias lind='cd $STUD/lind'
+    alias lc='cd $STUD/lc'
+    alias kpgk='cd $STUD/kpgk'
