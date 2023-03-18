@@ -9,7 +9,7 @@
     export BROWSER="brave"
 
 # Custom variables:
-    export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -DMY_LOCAL -O0 -fsanitize=undefined"
+    export CXXFLAGS="-std=c++17 -Wall -Wextra -ggdb -DLOCAL -O0 -fsanitize=undefined"
     export CFLAGS="-Wall -Wextra -ggdb"
     export HISTSIZE=2000
     # optout from dotnet data collect
